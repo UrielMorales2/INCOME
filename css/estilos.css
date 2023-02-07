@@ -28,6 +28,66 @@ body{
     height: 20%;
     z-index: 10;
 }
+
+
+/* estilos del menu pequeño */
+.main-nav{
+  width: 100%;
+  position: relative;
+  z-index: 2000;
+  padding: 10px;
+}
+.fa-bars{
+  display: block;
+  color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+  width: 40px;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+.menu{
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  /* background: rgba(0,0,0,2); */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  height: 0px;
+  overflow: hidden;
+  transition: height .3s linear;
+  z-index: 3000;
+}
+.menu__link{
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu__link:hover{
+  background: orange;
+  
+}
+.menu__link--select{
+  background: orange;
+}
+
+.mostrar {
+  height: 180px;
+  z-index: 3000;
+}
+
+/* fin del menu pequeño */
+
+
 .menu-header{
     position: fixed;
     top: 0;
@@ -36,7 +96,7 @@ body{
     display: flex;
     justify-content: space-around;
     transition: 0.7s;
-    padding: 30px 20px;
+    padding: 10px 20px;
     z-index: 10;
 }
 .abajo{
@@ -47,6 +107,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .menu-contenedor_list{
     position: relative;
@@ -437,6 +498,16 @@ body{
     width: 50px;
     height: 350px;    
   }
+
+
+  /* menu */
+  .main-nav{
+    background: rgb(6, 78, 231);
+}
+.menu{
+  background: rgb(6, 78, 231);
+}
+
   .menu-header{
     display: none;
   }
@@ -490,12 +561,22 @@ body{
     margin: 0 20px 0 20px;
   }
 
+
+
+
+  /* menu */
+ 
+
 }
 
 @media screen and (min-width:1024px){
   .menu-header{
-    display: block;
+    display: flex;
   }
+.main-nav{
+  display: none;
+}
+  
   .container{
     width: 1000px;
   }
@@ -583,3 +664,7 @@ body{
   }
   
 }
+
+
+
+

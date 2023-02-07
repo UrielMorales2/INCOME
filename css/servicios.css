@@ -192,6 +192,9 @@ img{
     .main-footer .container--flex{
       align-items: flex-start
     }
+    .menu-header_nosotros{
+        display: none;
+      }
 }
 
 
@@ -200,6 +203,9 @@ img{
     .container{
       width: 1000px;
     }
+    .menu-header_nosotros{
+        display: flex;
+      }
 }
 
 
