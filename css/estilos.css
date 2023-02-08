@@ -237,6 +237,11 @@ body{
     /* padding: 5px; */
     /* background: red;  */
   }
+
+  .fa-location-dot{
+    color: red;
+    font-size: 1.4em;
+  }
 /* fin iconos */
 /* ------------------------------------------------------------------------------------------------------ */
 
@@ -302,7 +307,7 @@ body{
     font-size: 3.2em;
     font-weight: bold;
     color: #0037af;
-    background: orange;
+    /* background: orange; */
   }
   .container {
     width: auto;
@@ -321,7 +326,7 @@ body{
   }
   .column--50-25{
     width: 49%;
-    background: rgb(255, 166, 0);
+    /* background: rgb(255, 166, 0); */
   }
   .today-special{
     /* background: #DE6021; */
@@ -576,6 +581,9 @@ body{
   .column--33{
     width: 45%;
   }
+  .ocul{
+    display: none;
+  }
   
   .column__title{
     font-size: 1.1em;
@@ -594,6 +602,7 @@ body{
     border: 5px;
     border-left: 50px;
   }
+
 
  
 }
@@ -616,7 +625,11 @@ body{
 
 
   
-
+  .wrap{
+    background: #15A2FA;
+    display: flex;
+    flex-direction: row-reverse;
+  }
   .tarjeta{
     width: 230px;
     height: 170px;    
@@ -688,6 +701,20 @@ body{
     }
     .banner__content{
       font-size: 3em;
+    }
+
+    .column--33{
+      width: 30%;
+    }
+    .column__title{
+      font-size: 1.8em;
+    }
+    .column__txt{
+      font-size: 1.2em;
+    }
+
+    .ocul{
+      display: block;
     }
   
   
