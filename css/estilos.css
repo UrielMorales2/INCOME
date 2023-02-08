@@ -11,16 +11,29 @@
     font-weight:bold;
     src:url(../fonts/Montserrat-Bold.ttf);
 }
-body{
+/* body{
     font-family: 'Montserrat', sans-serif;
-   margin: 0;
-   background: #F6F6F6;
+    margin-right: 0;
+    margin-left: 0;
+   
+   background: blueviolet;
    
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+} */
+
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+   font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  background: #F6F6F6;
 }
 
 .logo{
@@ -34,8 +47,10 @@ body{
 .main-nav{
   width: 100%;
   position: relative;
+  /* position: fixed; */
   z-index: 2000;
   padding: 10px;
+  
 }
 .fa-bars{
   display: block;
@@ -51,7 +66,6 @@ body{
   cursor: pointer;
   font-size: 1.5em;
 }
-
 .menu{
   position: absolute;
   top: 60px;
@@ -73,7 +87,6 @@ body{
   color: white;
   text-decoration: none;
 }
-
 .menu__link:hover{
   background: orange;
   
@@ -81,12 +94,10 @@ body{
 .menu__link--select{
   background: orange;
 }
-
 .mostrar {
   height: 180px;
   z-index: 3000;
 }
-
 /* fin del menu pequeño */
 
 
@@ -121,11 +132,9 @@ body{
     list-style: none;
     padding: 10px;
 }
-
 /* .menu_list:hover{
     background: black;
 } */
-
 .menu_link{
     text-decoration: none;
     position: relative;
@@ -149,7 +158,6 @@ body{
 .abajo .menu_link{
     color: rgb(11, 79, 224);
 }
-
 .menu_link::before {
     content: "";
     position: absolute;
@@ -163,12 +171,11 @@ body{
     transform: scaleX(0);
     transform-origin: right;
     transition: transform 0.3s ease-out;
-  }
-  
-  .menu_link:hover::before {
-    transform: scaleX(1);
-    transform-origin: left;
-  }
+}
+.menu_link:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
   /* .menu-header::before {
     content: '';
     position: absolute;
@@ -178,7 +185,6 @@ body{
     
     top: 0;
   } */
-
   .abajo .logo{
     width: 12%;
     height: 15%;
@@ -186,8 +192,7 @@ body{
   .abajo .menu_link{
     font-size: 1.2em;
   }
-
-  /* ---------------fin del menú------------------- */
+/* ---------------fin del menú------------------- */
 
 
 
@@ -197,11 +202,10 @@ body{
 
 
   /* iconos */
-  .social-icon{
+.social-icon{
     display: flex;
     border: 20px solid #222;
 }
-
 .social-icon__link{
     color: black;
     margin-left: 10px;
@@ -233,9 +237,9 @@ body{
     /* padding: 5px; */
     /* background: red;  */
   }
-
 /* fin iconos */
 /* ------------------------------------------------------------------------------------------------------ */
+
 
   /* .slider {
     position: relative;
@@ -263,89 +267,90 @@ body{
 
 
 /* BANNER */
-
-    .banner__content{
-        width:100%;
-        color: white;
-        background: rgba(0,0,0,0.4);
-        text-align: center;
-        position: absolute;
-       
-        top: 50%;
-        left: 50%;
-        transform: translateX(-50%) translateY(-50%);
-        font-size: 3.5em;
-        font-weight: bold;
-    
-    }
-
-    /* noostros */
-    .nosotrosText{
-      padding: 20px 10% 10px;
-      font-size: 1.6em;
-      /* font-weight: bold; */
-      color: #0037af;
-    }
-    .nosotrosText{
-      margin-bottom: 20px;
-      margin-top: 0;
-      /* background: red; */
-    }
-    .group__title{
-      padding: 20px 35% 10px;
-      font-size: 3.2em;
-      font-weight: bold;
-      color: #0037af;
-      /* background: red; */
-    }
-    .container {
-      width: auto;
-      margin: auto;
-      /* margin: 20px 10%; */
-    }
-    .container--flex{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .column{
-      width: 100%;;
-      /* height: 600px; */
-    }
-    .column--50-25{
-      width: 49%;
-    }
-    .today-special{
-      /* background: #DE6021; */
-      /* padding: 50px */
-    }
-    .today-special .column{
-      margin-bottom: 30px;
+  .banner__content{
+      width:100%;
+      color: white;
+      background: rgba(0,0,0,0.4);
       text-align: center;
-    }
-    
-    .today-special__img{
-        margin: auto;
-        max-width: 350px;
-    }
-    
-    .today-special__title{
-        font-size: 1.3em;
-        padding-top: 10px;
-        color: #0037af;
-        padding-bottom: 20px;
-        font-weight: bold;
-    }
-    
-    .today-special__price{
-        font-size: 1.5em;
-        color: #0037af;
-        /* font-weight: bold; */
-    }
-    /* fin nosottros */
+      position: absolute;
+      
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      font-size: 3.5em;
+      font-weight: bold;
+
+  }
+/* FIN BANNER */
 
 
+
+  /* noostros */
+  .nosotrosText{
+    padding: 20px 10% 10px 10%;
+    font-size: 1.6em;
+    /* font-weight: bold; */
+    color: #0037af;
+  }
+  .nosotrosText{
+    margin-bottom: 20px;
+    margin-top: 0;
+    background: green;
+  }
+  .group__title{
+    padding: 20px 35% 10px;
+    font-size: 3.2em;
+    font-weight: bold;
+    color: #0037af;
+    background: orange;
+  }
+  .container {
+    width: auto;
+    margin: auto;
+    /* margin: 20px 10%; */
+  }
+  .container--flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .column{
+    width: 100%;;
+    /* height: 600px; */
+  }
+  .column--50-25{
+    width: 49%;
+    background: yellow;
+  }
+  .today-special{
+    /* background: #DE6021; */
+    /* padding: 50px */
+  }
+  .today-special .column{
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .today-special__img{
+      margin: auto;
+      max-width: 350px;
+  }
+  .today-special__title{
+      font-size: 1.3em;
+      padding-top: 10px;
+      color: #0037af;
+      padding-bottom: 20px;
+      font-weight: bold;
+  }
+  .today-special__price{
+      font-size: 1.5em;
+      color: #0037af;
+      /* font-weight: bold; */
+  }
+  /* fin nosottros */
+
+
+  /* TARGETAS GRIRATORIAS 360° */
   .wrap{
     display: flex;
     width: 100%;
@@ -394,7 +399,7 @@ body{
     transform: rotateY(180deg);
 
     padding: 15px;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
 
@@ -409,7 +414,7 @@ body{
     background-size: cover;
     background-position: center center;
   }
-.text_wrap{
+  .text_wrap{
   color: #fff;
   left: 20%;
   z-index: 1000;
@@ -417,11 +422,11 @@ body{
   position: absolute;
   top: 50%;
   }
-
-
 /* .text_wrap{
   background: red;
 } */
+/* FIN TARGETAS GRIRATORIAS 360° */
+
 
 
 /*------------------------Estilos del footer---------------*/
@@ -432,7 +437,6 @@ body{
   width: 100%; /* Ajusta el footer al ancho de la pantalla */
   z-index: 1000;
 }
-
 .main-footer{
   background: #222;
   color: white;
@@ -441,7 +445,6 @@ body{
   padding-bottom: 20px;
   font-size: .8em;
 }
-
 .ubi{
   text-decoration: none;
   color: white;
@@ -451,12 +454,10 @@ body{
   margin: auto;
   margin-top: 15px;
 }
-
 .main-footer [class*="icon-"]{
   color: white;
   text-decoration: none
 }
-
 .main-footer [class*="icon-"]:before{
   position: relative;
   top: 4px;
@@ -478,6 +479,63 @@ body{
 
 /*--------------------Estilos Responsive----------------*/
 @media screen and (min-width:200px){
+  .zona1{/* imagen del baner */
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+  }
+  .banner__content{/* texto del banner */
+    font-size: 1.6em;   
+  }
+  .group__title{/* titulo quienes somos */
+    font-size: 1.6em;
+    padding: 20px 15% 10px 15%;
+    font-weight: bold;
+    color: #0037af;
+    
+    /* margin-top: 10%; */
+  }
+  .nosotrosText{ /* Texto quienes somos */
+    font-size: 1.4;
+  }
+  .column--50-25{
+    width: 60%;
+    margin-left:  20%;
+    
+    border: 5px solid grey;
+  }
+  .today-special__img{
+    /* margin: auto; */
+    max-width: 270px;
+  }
+  .group{
+    background: yellowgreen;
+  }
+
+  .wrap{
+    background: #15A2FA;
+    display: block;
+  }
+  .tarjeta{
+    width: 100%;
+    height: 250px;    
+  }
+  .text_wrap{
+    font-size: 1.5em;
+    color: #fff;
+    left: 20%;
+    z-index: 1000;
+    text-align: center;
+    position: absolute;
+    /* top: 40%; */
+    /* border: 5px solid burlywood; */
+    margin: 0 80px 80px 0 ;
+  
+  }
+  
+
+
   .main-footer .container--flex{
     align-items: flex-start
   }
@@ -493,43 +551,47 @@ body{
   .main-footer .container--flex{
     align-items: flex-start
   }  
-  .column--33{
-    width: 30%;
-  }
-  .tarjeta{
-    width: 50px;
-    height: 350px;    
-  }
+ 
 
 
   /* menu */
   .main-nav{
     background: rgb(0, 42, 133);
-}
-.menu{
-  background: rgb(6, 78, 231);
-}
+  }
+  .menu{
+    background: rgb(6, 78, 231);
+  }
 
   .menu-header{
     display: none;
   }
+
+ 
+  .column--33{
+    width: 45%;
+  }
+  
+  .column__title{
+    font-size: 1.1em;
+  }
   .social-icon__link{
-    font-size: 1.2em;
-    width: 30px;
-    height: 30px;
+    font-size: 2em;
+    width: 45px;
+    height: 45px;
     /* background: red; */
-    margin: 0 20px 0 20px;
+    margin: 0 0 100% 2px;
     border-radius: 50%;
     text-decoration: none;
   }
+  .social-icon{
+    /* background: hotpink; */
+    border: 5px;
+    border-left: 50px;
+  }
 
-  .banner__content, .group__title, .text_wrap{
-    font-size: 1em;
-  }
-  .text_wrap{
-    display: none;
-  }
+ 
 }
+
 
 @media screen and (min-width:768px){
   .column--50-25{
