@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="css/servicios.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/contacto.css">
+
+    <script src="js/jquery-3.6.3.js"></script>
+    <script src="js/script.js"></script>
+
     <script src="https://kit.fontawesome.com/cedfbf939d.js" crossorigin="anonymous"></script>
     <title>INCOME | SERVICIOS</title>
 </head>
@@ -46,52 +50,115 @@
             </ul>
         </div>
     </nav>
-    <section class="banner">
+    <section class="zona3" style="background-image: url('img/nosotros.jpg')">
+        <div class="banner__content">CONTÁCTANOS</div>
+    </section>
+    <!-- <section class="banner">
         <img src="img/nosotros.jpg" alt="" class="banner__img">
         <div class="banner__content bannerTextnosotros">Contáctenos </div>
-    </section>
+    </section> -->
+    
 
 
-
-    <main class="main"> 
+    <main class="mainContacto">
         <seccion  class="group contact">
-            <h2 class="group__title">Contactenos </h2>
-        <div class="container container--flex">
-            <div class="contact-information column column--50">
-                <h3 class="column__title">Informacion de Contacto</h3>
-                <p class="column__txt">
-                    Horario: <br>
-                    Lunes a Viernes: 9am - 6pm <br>
-                    Sábado: 9am -  1:30pm
-                    
-                </p>
-                <p class="column__txt"><span class="icon-phone"></span>Telefono 1: (+52) 951 109 8256</p>
-                <p class="column__txt"><span class="icon-phone"></span>Telefono 2: (+52) 951 654 5441</p>
-                <p class="column__txt"><span class="icon-location"></span>Avenida Rafael Cortés No. 728, Col. Centro, C.P 75240 Tecali de Herrera, Puebla</p>
-                <iframe class="mapita" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.6346888847943!2d-97.97570669999999!3d18.903280799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cf9189bd112385%3A0xbdfe47ba02dca600!2sSintered%20Stone!5e0!3m2!1ses-419!2smx!4v1670614316961!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <p class="column__txt"><span class="icon-mail"></span>comercial@sinteredstone.com.mx</p>
-                <p class="column__txt"><span class="icon-facebook"></span>Sintered Stone</p>
-                <p class="column__txt"><span class="icon-instagram"></span>sinteredstone_</p>
-                <div class="social-icon">
-                     <a href="https://www.facebook.com/sinteredst" class="social-icon__link"><span class="icon-facebook"></span></a>
-                     <a href="https://www.instagram.com/sinteredstone_/" class="social-icon__link"><span class="icon-instagram"></span></a>
-                     <a href="" class="social-icon__link"><span class="icon-mail"></span></a>
-               </div>
-            </div>
-            <form action="enviar-prueva.php" method="post" class="formulario column column--50">
-                <label for="" class="formulario__label">Nombre*</label>
-                <input type="text" class="formulario__input-txt" name="nombre" required>
-                <label for="" class="formulario__label">Correo*</label>
-                <input type="text" class="formulario__input-txt" name="correo" required>
-                <label for="" class="formulario__label">Telefono*</label>
-                <input type="text" class="formulario__input-txt" name="Telefono" required>
-                <label for="" class="formulario__label">Mensaje*:</label>
-                <textarea name="mensaje" required id="" cols="30" rows="10" class="formulario__textarea"></textarea> 
-                <input type="submit" class="btn formulario__btn" value="Enviar">
-            </form>
-        </div>  
+            <!-- <h2 class="group__title">Contactenos </h2> -->
+            <div class="containerContacto container--flex_contacto">
+                <section class="contact_info" style="background-image: url('img/rf8.jpg')">
+                    <div class="contact-information columnContacto column--50Contacto">
+                        <!-- <span class="fa fa-user-circle"></span> -->
+                        <h3 class="column__titleContacto">INFORMACIÓN  DE CONTACTO</h3>
+                        <p class="column__txtContacto">
+                            <b> Horario de atención: <br></b>
+                            Lunes a Viernes: 9am - 6pm <br>
+                            Sábado: 9am -  1:30pm
+                        </p>
+                        <p class="column__txtContacto"><span class="fa-solid fa-phone"></span> Telefono: (+52) 951 654 5441</p>
+                        <p class="column__txtContacto"><span class="fa-sharp fa-solid fa-envelope"></span> rf8income@tme21.com</p>
+                        <p class="column__txtContacto"><span class="fa-brands  fa-facebook"></span> rf8income</p>
+                        <p class="column__txtContacto"><span class="fa-solid fa-location-dot"></span> Aeropuerto Internacional Felipe Ángeles (AIFA) – Tecámac Estado de México</p>
+                        <iframe class="mapita" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d240349.8952822074!2d-99.02652!3d19.735299!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6c0638444fed4586!2sAeropuerto%20Internacional%20Felipe%20%C3%81ngeles%20(AIFA)!5e0!3m2!1ses!2smx!4v1676051637651!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <!-- <p class="column__txtContacto"><span class="icon-facebook"></span>Sintered Stone</p>
+                        <p class="column__txtContacto"><span class="icon-instagram"></span>sinteredstone_</p> -->
+                        <div class="social-icon">
+                            <!-- <a href="https://www.facebook.com/sinteredst" class="social-icon__link"><span class="icon-facebook"></span></a>
+                            <a href="https://www.instagram.com/sinteredstone_/" class="social-icon__link"><span class="icon-instagram"></span></a>
+                            <a href="" class="social-icon__link"><span class="icon-mail"></span></a> -->
+                        </div>
+                    </div>
+                </section>
+                
+                <form action="" class="form_contact">
+                    <h2>Porque nos interesa la rapidez con la que le gusta que lo atendamos, envíenos sus datos con gusto nos ponemos en contacto con usted.</h2>
+                    <div class="user_info">
+                        <label class="labelContacto" for="names" id="nom">Nombres*</label>
+                        <input class="inputContact" type="text" name="" id="names">
+                        
+                        <label class="labelContacto" for="phone" id="tel">Telefono / Celular</label>
+                        <input class="inputContact" type="text" name="" id="phone">
+                        
+                        <label class="labelContacto" for="email" id="correo"> Correo Electronico*</label>
+                        <input class="inputContact" type="text" name="" id="email">
+        
+                        <label class="labelContacto" class="labelContacto" for="mensaje" id="mensag">Mensaje*</label>
+                        <textarea class="inputContact" name="" id="mmensaje" ></textarea>
+        
+                        <label for="" id="acep">
+                            <input type="checkbox" id="aceptar">
+                            Al recibir su información, acepta que nuestro equipo se comunique con usted para dar mejor detalle de nuestros productos y darle una atención más personalizada.*
+                        </label>
+                        
+                        <input class="btnEnviar" type="button" value="Enviar Mensaje" name="" id="btnSend">
+                    </div>
+                </form>
+            </div>  
         </seccion>
     </main>
+
+
+
+
+    <!-- <div class="modalWrap">
+        <div class="mensaje_modal">
+            <h3 class="tect_modal">Debe de llenar estos campos</h3>
+            <p class="text_D"><i class="fa-solid fa-x"></i> Ingrese su Nombre(s)</p>
+            <p class="text_D"><i class="fa-solid fa-x"></i> Ingrese su Correo</p>
+            <p class="text_D"><i class="fa-solid fa-x"></i> Ingrese su Mensaje</p>
+            <span id="btnClose" >Cerrar</span>
+        </div>
+    </div> -->
+
+    <!-- <section class="form_wrap">
+        <section class="contact_info" style="background-image: url('img/rf8.jpg')">
+            <section class="info_title">
+                <span class="fa fa-user-circle"></span>
+                <h2>INFORMACIÓN <br> DE CONTACTO</h2>
+                <section class="info_items">
+                    <p><span class="fa fa-envelope"></span>uncoreo@correo.com.mx</p>
+                    <p><span class="fa fa-mobile"></span>951067946</p>
+                </section>
+            </section>
+        </section>
+
+        <form action="" class="form_contact subir">
+            <h2>Porque nos interesa la rapidez con la que le gusta que lo atendamos, envíenos sus datos con gusto nos ponemos en contacto con usted</h2>
+            <div class="user_info">
+                <label class="labelContacto" for="names" id="nom">Nombres*</label>
+                <input class="inputContact" type="text" name="" id="names">
+                
+                <label class="labelContacto" for="phone" id="tel">Telefono / Celular</label>
+                <input class="inputContact" type="text" name="" id="phone">
+                
+                <label class="labelContacto" for="email" id="correo"> Correo Electronico*</label>
+                <input class="inputContact" type="text" name="" id="email">
+
+                <label class="labelContacto" class="labelContacto" for="mensaje" id="mensag">Mensaje*</label>
+                <textarea class="inputContact" name="" id="mmensaje" ></textarea>
+
+                <input class="btnEnviar" type="button" value="Enviar Mensaje" name="" id="btnSend">
+            </div>
+        </form>
+    </section> -->
 
 
     <footer class="main-footer ">
@@ -117,7 +184,6 @@
             </div>
             <p class="copy">©2023 INCOME – Insumos Comerciales Especializados SA de CV</p>
         </div>
-
     </footer>
 
 

@@ -1,3 +1,12 @@
+ .zona2{
+    margin-top: 7%;
+    position: relative;
+    width: 100%;
+    height: 45vh;
+    background-size: cover;
+    background-position: center center; 
+ }
+
 .containerServicios {
     width: auto;
     margin: auto;
@@ -195,6 +204,10 @@ img{
     .menu-header_nosotros{
         display: none;
       }
+    .banner__img{
+        margin-top: 0;
+        /* border: 5px solid red; */
+    }
 }
 
 

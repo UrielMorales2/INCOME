@@ -1,8 +1,63 @@
+.zona3{
+    margin-top: 7%;
+    position: relative;
+    width: 100%;
+    height: 45vh;
+    background-size: cover;
+    background-position: center center; 
+ }
+.mainContacto{
+    margin-top: 3%;
+    margin-bottom: 1%;
+    /* border: 5px solid red; */
+    /* background: red; */
+}
+/* .contact{
+    border: 100px solid orange;
+    background: peru;
+} */
+.containerContacto{
+    width: auto;
+    margin: auto;
+    /* border: 5px solid violet; */
+
+
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+
+}
+
+.container--flex_contacto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.column--50Contacto{
+    width: 100%;
+    z-index: 2;
+}
+
+.column__titleContacto{
+    font-size: 1.6em;
+}
+.column__txtContacto{
+    font-size: 1.6em;
+}
+
 .contact-information{
-    padding: 10px;
-    padding-top: 0;
-    margin-bottom: 30px;
-    border-bottom: 1px solid #531d4fd0;
+    padding: 30px 30px 30px 30px;
+    /* padding-top: 10px; */
+    /* margin: auto; */
+    /* margin-bottom: 30px; */
+    /* border: 5px solid red; */
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 500;
 }
 
 .contact-information .column__title{
@@ -30,9 +85,25 @@
     margin-right: 15px;
 }
 
+form.form_contact{
+    width: 62%;
+    padding: 0  30px 6% 40px;
+    /* border: 5px solid yellow; */
+}
 .formulario{
-    padding: 10px;
-    padding-top: 0;
+    width: 62%;
+    padding: 0 30px 20% 30px;
+    border: 5px solid red;
+    /* padding: 10px; */
+    margin-top: 0;
+    /* padding-top: 0; */
+}
+.textPrincipal{
+    font-size: 20px;
+    font-weight: 600;
+    color: #4091EC;
+    margin-bottom: 30px; 
+    margin-top: 10px;
 }
 
 .formulario__label, .formulario__input-txt, .formulario__textarea{
@@ -59,6 +130,214 @@
 }
 
 
+/* estilos del formulario 2 */
+:focus{
+    outline: none;
+}
+
+
+.form_wrap{
+    width: 80%;
+    height: 630px;
+    margin: 50px auto;
+    display: flex;
+
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.contact_info::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: #4091EC;
+    opacity: 0.9;
+}
+
+.contact_info{
+    width: 38%;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+
+    background-size: cover;
+    background-position: center center;
+}
+
+.info_title, .info_items{
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+}
+.info_title{
+    margin-bottom: 60px;
+} 
+.fa-user-circle{
+    font-size: 100px;
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #FFF;
+}
+.info_title h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+.info_items p{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* .fa-envelope{
+    font-size: 30px;
+    margin-right: 10px;
+} */
+.fa-mobile{
+    font-size: 30px;
+    margin-right: 15px;
+    margin-left: 4px;
+}
+
+/* form.form_contact{
+    width: 62%;
+    padding: 30px 40px;
+} */
+form.form_contact h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #4091EC;
+    margin-bottom: 30px; 
+}
+
+.user_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.labelContacto{
+    font-weight: 400;
+    font-size: 1.1em;
+    /* margin-top: 10px; */
+}
+.inputContact{
+    width: 100%;
+    padding: 8px 0 5px;
+    margin-bottom: 20px;
+    
+    border: none;
+    border-bottom: 2px solid #D1D1D1;
+
+    color: #5A5A5A;
+    font-size: 14px;
+    font-weight: 400;
+}
+textarea{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 90px;
+}
+
+.btnEnviar{
+    width: 180px;
+    background-color: #4091EC;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 5%;
+    /* align-self: flex-end; */
+
+
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnEnviar:hover{
+    background: #3371B6;
+}
+
+
+/* validacion */
+.modalWrap{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.mensaje_modal{
+    background: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    padding: 30px 20px 15px;
+}
+.tect_modal{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+.tect_modal::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #C5C5C5;
+    margin: 10px 0 15px;
+}
+.text_D{
+    font-size: 16px;
+    color: #606060;
+}
+
+.fa-x{
+    color: red;
+}
+
+#btnClose{
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 10px;
+
+    background: red;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 25px;
+
+
+    float:  right;
+}
+
+/* -------------------FIN FORMULARIO 2----------------------- */
+
+
+@media screen and (min-width:480px){
+    .mainContacto{
+        padding-bottom: 15px;
+    }
+}
+
 @media screen and (min-width:480px){
     .contact .container--flex{
     align-items: flex-start;
@@ -70,16 +349,17 @@
     .contact-information p{
         font-size: .75em;
     }
-    .contact-information{
-        border-right: 1px solid #531d4f;
+    /* .contact-information{
+        border-right: 5px solid red;
         border-bottom: none;
-    }
+    } */
 }
 
 @media screen and (min-width:768px){
     .contact-information p {
         font-size: 1em;
     }
+    
     
     .contact-information .column__title{
         font-size: 1.5em;
@@ -123,3 +403,14 @@
             height:240px;
             }
     }  
+
+
+    @media screen and (min-width:1600px){
+        .containerContacto{
+            width: 1400px;
+        }
+        .mapita{
+            width: 100%;
+            height:300px;
+            }
+    }
