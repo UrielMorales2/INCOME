@@ -197,6 +197,76 @@ img{
 }
 
 
+
+
+
+
+.contenedor_imagenes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.contenedor_imagenes figure{
+    position: relative;
+    height: 300px;
+    width: 370px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: rgba(0,0,0,0.50);
+    cursor: pointer;
+}
+
+.img_cap{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.contenedor_imagenes figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(11, 103, 123,0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.contenedor_imagenes figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+
+.contenedor_imagenes figure:hover > .capa h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor_imagenes figure .capa h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+.contenedor_imagenes figure:hover > img{
+    transform: scale(1.3);
+}
+.contenedor_imagenes figure .capa p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+
+
+
 @media screen and (min-width:200px){
     .main-footer .container--flex{
       align-items: flex-start
