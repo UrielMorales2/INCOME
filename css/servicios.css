@@ -217,6 +217,7 @@ img{
     border-radius: 6px;
     box-shadow: rgba(0,0,0,0.50);
     cursor: pointer;
+   
 }
 
 .img_cap{
@@ -278,6 +279,12 @@ img{
         margin-top: 0;
         /* border: 5px solid red; */
     }
+
+    .contenedor_imagenes{
+        display: flex;
+        flex-direction: column;
+        
+    }
 }
 
 
@@ -289,6 +296,36 @@ img{
     .menu-header_nosotros{
         display: flex;
       }
+      .contenedor_imagenes{
+        flex-direction: row;
+        padding-top: 3%; 
+        padding-bottom: 3%; 
+    }
+    .contenedor_imagenes figure{
+        height: 340px;
+        width: 340px;     
+    }
+}
+@media screen and (min-width:1500px){
+    .contenedor1{
+        display: flex;
+        width: 50%;
+        flex-direction: row;
+        padding-left: 5%;
+    }
+    .contenedor2{
+        display: flex;
+        width: 50%;
+        flex-direction: row;
+    }
+    .img_cap{
+        width: 100%;
+       
+    }
+    .contenedor_imagenes figure{
+        height: 340px;
+        width: 360px;     
+    }
 }
 
 
@@ -296,4 +333,6 @@ img{
     .container{
       width: 1400px;
     }
+    
+    
 }
