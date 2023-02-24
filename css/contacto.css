@@ -328,7 +328,7 @@ textarea{
 
 
 /*------------------- estilos responsiv --------------- */
-@media screen and (max-width: 769px) and (min-width: 200px) {  
+@media screen and (max-width: 778px) and (min-width: 200px) {  
     form.form_contact{
         width: 100%;
         margin:auto;
@@ -388,6 +388,8 @@ textarea{
     @media screen and (min-width:1600px){
         .containerContacto{
             width: 1400px;
+            /* background-color: red;
+            height: 680px; */
         }
         .mapita{
             display: block;
