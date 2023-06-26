@@ -11,6 +11,7 @@
     font-weight:bold;
     src:url(../fonts/Montserrat-Bold.ttf);
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 /* body{
     font-family: 'Montserrat', sans-serif;
     margin-right: 0;
@@ -33,12 +34,52 @@
 body{
    font-family: 'Montserrat', sans-serif;
   margin: 0;
-  background: #F6F6F6;
+  /* background: #F6F6F6; */
+  background: #Fff;
 }
 
+
+.infoHeader{
+  display: flex;
+  justify-content: center;
+  /* gap: 15rem; */
+
+  align-items: center;
+  margin: 0 auto;
+  
+
+  background-color: rgb(11, 79, 224);
+  /* border: 10px solid green; */
+}
+.infoTelMail{
+  cursor: pointer;
+  display: flex;
+  gap: 1.5rem;
+  font-size: .4rem;
+  color: #fff;
+  /* border: 10px solid purple; */
+  padding-left: 280px;
+}
+.infoIcon{
+  /* margin-left: 300px; */
+  cursor: pointer;
+  justify-content: space-between;
+  padding-left: 600px;
+  /* border: 10px solid  red; */
+}
+.infoIcon i{
+  margin-right: 40px;
+  color: #fff
+}
+.iconInfo {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
 .logo{
-    width: 20%;
-    height: 20%;
+    width: 15%;
+    height: 15%;
     z-index: 10;
 }
 
@@ -355,6 +396,116 @@ body{
   /* fin nosottros */
 
 
+
+  /* DESCRRIPCION */
+  .descripcion{
+    background: #0037af;
+    width: 100%;
+    border: 1px solid #0037af;
+    
+  }
+  .texttitleService{
+    /* border: 2px solid red; */
+    color: #fff;
+    font-size: 1.6em;
+    padding-top: 2%;
+    padding-left: 16%;
+    
+  }
+  .textService{
+    /* border: 2px solid rgb(242, 242, 242); */
+    width: 68%;
+    margin: 50px auto;
+    color: #fff;
+    font-size: 1.2em;
+  }
+/* --------------------------------------------------------- */
+
+
+
+  /* service */
+
+  .SeccService {
+       
+    margin: 1px auto;
+    width: 70%;
+    /* border: 2px solid green; */
+  }
+  .seccservice_title{
+    /* border: 2px solid gold; */
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #183650;
+    text-decoration: underline;
+    text-decoration-color: #F95319;
+    text-decoration-thickness: 5px; 
+
+    padding-top: 7%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+  }
+
+  /* .seccservice_title::after{
+    content: '';
+    position: absolute;
+    width: 40%;
+    height: 2px;
+    background-color: red; 
+    bottom: -2px; 
+    left: 50%; 
+  } */
+
+  .secservice_container_card {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    justify-items: center; 
+    align-items: center;
+  
+    padding: 0;
+    /* border: 2px solid rgb(50, 159, 205); */
+  }
+  
+  .secservice_card {
+    display: flex;
+    /* width: calc(33.33% - 10px); */
+    width: 100%;
+    height: 100%;
+    /* padding: 30px; */
+    background-color: #F9F9F9;
+    transition: background-color 0.3s;
+    /* border: 2px solid gold; */
+  }
+  
+  .secservice_card:hover {
+    background-color: #F95319;
+    color: #fff;
+  }
+  .seccion_icon_img img{
+    width: 50px;
+    color: #F95319;
+  }
+
+  .seccion_icon  {
+    font-size: 50px;
+    color: #F95319;
+    margin: 10% auto;
+    padding: 20px;
+  }
+  .seccion_text{
+    margin: 15% auto;
+    padding: 0% 10px;
+    font-size: 1.3em;
+  }
+
+  .secservice_card:hover .seccion_icon{
+    color: #fff;
+  }
+ 
+
+  
+
   /* TARGETAS GRIRATORIAS 360° */
   .wrap{
     display: flex;
@@ -431,6 +582,123 @@ body{
   background: red;
 } */
 /* FIN TARGETAS GRIRATORIAS 360° */
+
+
+
+/* Carrusel */
+.wrapper {
+  margin: 1px auto;
+  /* max-width: 1100px; */
+  width: 80%;
+  position: relative;
+  /* border: 1px solid #F89; */
+  padding-bottom: 8%;
+  
+
+}
+.wrapper i {
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+.wrapper i:active{
+  transform: translateY(-50%) scale(0.85);
+}
+.wrapper i:first-child{
+  left: -22px;
+}
+.wrapper i:last-child{
+  right: -22px;
+}
+.wrapper .carousel{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 4) - 9px);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  border-radius: 8px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+.carousel.no-transition {
+  scroll-behavior: auto;
+}
+.carousel.dragging {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+.carousel.dragging .card {
+  cursor: grab;
+  user-select: none;
+}
+.carousel :where(.card, .img) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel .card {
+  scroll-snap-align: start;
+  height: 280px;
+  width: 80%;
+  list-style: none;
+  background: #fff;
+  cursor: pointer;
+  padding-bottom: 15px;
+  flex-direction: column;
+  border-radius: 8px;
+  /* border: 2px solid blue; */
+}
+/* .carousel .card .img {
+  background: #8B53FF;
+  height: 148px;
+  width: 148px;
+  /* border-radius: 50%; 
+} */
+.card .img img {
+  width: 100%;
+  height: 100%;
+  /* border-radius: 50%; */
+  object-fit: cover;
+  
+}
+.carousel .card h2 {
+  font-weight: 500;
+  font-size: 1.56rem;
+  margin: 30px 0 5px;
+}
+.carousel .card span {
+  color: #6A6D78;
+  font-size: 1.31rem;
+}
+@media screen and (max-width: 900px) {
+  .wrapper .carousel {
+    grid-auto-columns: calc((100% / 2) - 9px);
+  }
+}
+@media screen and (max-width: 600px) {
+  .wrapper .carousel {
+    grid-auto-columns: 100%;
+  }
+}
+
+.imgg{
+  /* border: 1px solid red; */
+}
+
 
 
 
