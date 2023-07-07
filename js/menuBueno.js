@@ -3,15 +3,15 @@ $(document).ready(main);
 var contador = 1;
  
 function main () {
-	$('.menuVar').click(function(){
+	$('.menuVarPEqueño').click(function(){
 		if (contador == 1) {
-			$('nav').animate({
+			$('navMenuchico').animate({
 				left: '0'
 			});
 			contador = 0;
 		} else {
 			contador = 1;
-			$('nav').animate({
+			$('navMenuchico').animate({
 				left: '-100%'
 			});
 		}

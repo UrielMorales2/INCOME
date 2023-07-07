@@ -32,9 +32,14 @@ box-sizing: border-box;
 }
 
 body{
- font-family: 'Montserrat', sans-serif;
-margin: 0;
-/* background: #F6F6F6; */
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
 background: #Fff;
 }
 
@@ -81,6 +86,10 @@ padding-left: 600px;
 .infoIcon i{
 margin-right: 40px;
 color: #fff
+}
+.infoTelMail a{
+  text-decoration: none;
+  color: #fff;
 }
 .iconInfo {
 text-decoration: none;

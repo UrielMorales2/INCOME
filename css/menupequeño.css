@@ -1,0 +1,152 @@
+.menuVarPEqueño{
+    display: none;
+}
+
+.navMenuchico{
+    position: fixed;
+
+    width: 100%;
+    background-color: rgb(6, 78, 231);
+    z-index: 2000;
+
+    margin: 0 auto;
+}
+
+
+.navMenuchico ul{
+    list-style: none;
+}
+
+.navMenuchico ul li{
+    display: inline-block;
+    position: relative;
+}
+
+.navMenuchico ul li:hover{
+    background: #F95319;
+}
+
+.navMenuchico ul li a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.navMenuchico ul li:hover .Children--{
+    display: block;
+}
+
+.navMenuchico ul li .Children--{
+    display: none;
+    background-color: rgb(6, 78, 231);
+    position: absolute;
+    width: 150%;
+    z-index: 2000;
+}
+
+.navMenuchico ul li .usos{
+    display: none;
+    background: rgb(6, 78, 231);
+    position: absolute;
+    width: 350%;
+    z-index: 2000;
+}
+
+
+.navMenuchico ul li .Children-- li{
+    display: block;
+    float: right;
+    position: relative;
+    top: 3px;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.navMenuchico ul li .Children-- li a{
+    display: block;
+    float: right;
+    position: relative;
+    top: 3px;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+    .headerMenuchico{
+        position: absolute;
+    }
+
+    .menuVarPEqueño {
+		display:block;
+		width:100%;
+        padding: 5px; 
+		position: fixed;
+		top: 1;
+		background:rgb(6, 78, 231);
+        z-index: 2000;
+	}
+    .menuVarPEqueño .vt-menu {
+		display: block;
+		padding: 10px;
+		color: #fff;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+        overflow: scroll;
+	}
+ 
+	.menuVarPEqueño span {
+		float: right;
+		font-size: 30px;
+	}
+
+    .headerMenuchico .navMenuchico{
+        width:80%;
+		height: calc(100% - 80px);
+		position: fixed;
+		right:100%;
+		margin: 0;
+		overflow: scroll;
+        z-index: 2000;
+    }
+    .headerMenuchico .navMenuchico ul li{
+        display: block;
+		border-bottom:1px solid rgba(255,255,255,.5);
+    }
+    .headerMenuchico .navMenuchico ul li a{
+        display: block;
+    }
+
+    .headerMenuchico .navMenuchico  ul li:hover .Children-- {
+		display: none;
+	}
+    .headerMenuchico .navMenuchico ul li .Children-- {
+		width: 100%;
+		position: relative;
+	}
+    .headerMenuchico .navMenuchico ul li .Children-- li a {
+		margin-left:20px;
+	}
+}
+
+@media screen and (min-width:480px){
+      
+	.menuVarPEqueño .vt-menu {
+		display: block;
+		padding: 10px;
+		color: #fff;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+ 
+	.menuVar span {
+		float: right;
+		font-size: 30px;
+	}
+}
