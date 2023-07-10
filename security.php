@@ -79,7 +79,7 @@
         </div>
     </nav> -->
     <section class="zona2" style="background-image: url('img/render.jpg')">
-        <div class="banner__content">EQUIPO E INSTALACIONES</div>
+        <div class="banner__content">SEGURIDAD</div>
     </section>
 
 
@@ -88,56 +88,33 @@
     <section class="contenedorEquipoment">
         <div class="infoEquipoment">
             <div class="List">
-                <div class="seccservice_title"> INSTALACIONES</div>
-                <p class="txtEquipoment">Cuenta con 2,700 m2 de almacén diseñado y construido con todos los elementos necesarios para brindar comodidad, agilidad y seguridad en manejo de la mercancía que almacena.</p>
-                <li>3,835 m3 de capacidad de carga</li>
-                <li>1,835 posiciones en racks</li>
-                <li>562 m2 de área de reconocimientos previos</li>
-                <li>Área para mercancías peligrosas</li>
-                <li>7 básculas electrónicas con capacidades diversas hasta 20 toneladas</li>
-                <li>Techumbre impermeabilizada y sellada con material aislante – térmico el cual permite contar con una temperatura adecuada dentro del almacén.</li>
+                <div class="seccservice_titlee"> 0 INCIDENCIAS DE ROBO <br>
+                    0 ACTOS DE INTERFERENCIA ILÍCITA
+                </div>
+                <p class="txtEquipoment">Sistema de Circuito Cerrado de Televisión.</p>
+                <li>78 cámaras de vigilancia</li>
+                <li>Grabación 24/7</li>
+                <li>Resguardo de imagen por 60 días en HD</li>
+                <li>Personal certificado y altamente capacitado</li>
+                <p class="txtEquipoment">Contamos con la Aprobación por parte de la Autoridad Aeronáutica Nacional de un Programa de Seguridad para la Prevención de Actos de Interferencia Ilícita y su Programa de Capacitación correspondiente.</p>
             </div>
             <div class="containerimg ab">
-                <img src="img/workstations.jpg" alt="" class="imgEquipoment">
+                <img src="img/aa.jpg" alt="" class="imgEquipoment">
             </div>
         </div> 
 
         <div class="infoEquipoment">
             <div class="containerimg">
-                <img src="img/montacargas.jpg" alt="" class="imgEquipoment">
+                <img src="img/equipos.jpg" alt="" class="imgEquipoment">
             </div>
             <div class="List">
-                <div class="seccservice_title"> EQUIPO MONTACARGAS</div>
-                <p class="txtEquipoment">Equipo de última generación</p>
-                <li>01 patín eléctrico de capacidad de 1100Kg</li>
-                <li>02 tractores de Arrastre de 5000KG</li>
-                <li>04 montacargas Eléctricos de capacidad 1800Kg</li>
-                <li>06 montacargas de gas de capacidad 1800Kg</li>
-                <li>06 montacargas de gas de capacidad 2100Kg</li>
-                <li>01 montacargas de gas de Capacidad de 3000Kg</li>
-                <li>01 montacargas de Gas de Capacidad de 5000Kg</li>
-                <li>01 montacargas de Diesel de Capacidad de 5000Kg</li>
-                <li>02 montacargas de Diesel de 7000Kg</li>
-                <li>01 camioneta de capacidad de 3500Kg</li>
-                <li>01 camioneta Pick up de 1500Kg.</li>
-            </div>
-        </div> 
-        <div class="infoEquipoment">
-            <div class="List">
-                <div class="seccservice_title"> CÁMARAS DE REFRIGERACIÓN Y CONGELACIÓN</div>
-                <p class="txtEquipoment">Todas nuestras Cámaras de Refrigeración y Congelación se encuentran calificadas (DQ, IQ, OQ Y PQ) lo que garantiza que sus condiciones de almacenamiento permiten mantener la calidad de los productos farmacéuticos y perecederos. Contamos con 3 Cámaras de Refrigeración que pueden operar en los rangos de temperatura de 2°C a 8°C (Refrigeración) y 15°C a 25°C (Temperatura Especial Controlada), y cuya capacidad es:</p>
-                <li>Cámara de Refrigeración R-1: 84 m3 de almacenamiento</li>
-                <li>Cámara de Refrigeración R-2: 328.30 m3 de almacenamiento</li>
-                <li>Cámara de Refrigeración R-3: 1,125.60 m3 de almacenamiento</li>
-                <p class="txtEquipoment">También contamos con:</p>
-                <li>1 Cámara de Congelación C-3 con capacidad de almacenamiento de 22.984 m3</li>
-                <li>2 Congeladores C-1 y C2 con capacidad de almacenamiento de 1.20 m3 c/u</li>
-                <p class="txtEquipoment">Funcionando con un rango de operación de -20°C a -10°C.</p>
-            </div>
-            
-
-            <div class="containerimg ab">
-                <img src="img/camaras.jpg" alt="" class="imgEquipoment">
+                <div class="seccservice_titlee"> EQUIPOS DE ÚLTIMA GENERACIÓN. NUEVOS, VALIDADOS Y APROBADOS POR LA AUTORIDAD AERONÁUTICA NACIONAL, ESTADOUNIDENSE Y EUROPEA</div>
+                <li>Equipo de Rayos X Double View</li>
+                <li>Equipo Detector de Explosivos con Trazas</li>
+                <li>Equipo Pórtico detector de Metales</li>
+                <li>Equipo Detector de Metales Portátil</li>
+                <li>Personal certificado y altamente capacitado</li>
+                <li>Identificación por credencial RFID.</li>
             </div>
         </div> 
     </section>

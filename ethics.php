@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/contacto.css">
     <link rel="stylesheet" href="css/equipoment.css">
+    <!-- <link rel="stylesheet" href="css/galeria.css"> -->
     <script src="https://kit.fontawesome.com/cedfbf939d.js" crossorigin="anonymous"></script>
     <title>INCOME | SERVICIOS</title>
 </head>
@@ -50,7 +51,7 @@
                         <li class="menu_list"><a href="#" class="menu_link">Nosotros</a>
                             <ul class="submenu activo">
                                 <a href="abaut.php" class="submenu_link"><li class="submenu_list">Acerca De Income</li></a>
-                                <a href="equipoment.php" class="submenu_link"><li class="submenu_list">Equipos e Instalaciones</li></a>
+                                <a href="equipoment.php" class="submenu_link"><li class="submenu_list">Equipós e Instalaciones</li></a>
                                 <a href="security.php" class="submenu_link"><li class="submenu_list">Seguridad</li></a>
                                 <a href="ethics.php" class="submenu_link"><li class="submenu_list">Etica</li></a>
                             </ul>
@@ -79,68 +80,71 @@
         </div>
     </nav> -->
     <section class="zona2" style="background-image: url('img/render.jpg')">
-        <div class="banner__content">EQUIPO E INSTALACIONES</div>
+        <div class="banner__content">ÉTICA</div>
     </section>
-
-
-
+        <!-- <section class="banner">
+        <img src="img/render.jpg" alt="" class="banner__img">
+        <div class="banner__content bannerTextnosotros">Lo mejor de nosotros a tu servicio </div>
+    </section> -->
+    <div class="descripcion">
+        <!-- <h1 class="texttitleService">EXCELENCIA EN EL SERVICIO</h1> -->
+        <p class="textService">Insumos Comerciales Especializados es una empresa con el más alto sentido de responsabilidad ética. Capacita y crea conciencia en todos su personal en espera de fortalecer una cultura basada en en la responsabilidad y el cumplimiento de legislación aplicable y la normatividad interna.</p>
+    </div>
 
     <section class="contenedorEquipoment">
         <div class="infoEquipoment">
             <div class="List">
-                <div class="seccservice_title"> INSTALACIONES</div>
-                <p class="txtEquipoment">Cuenta con 2,700 m2 de almacén diseñado y construido con todos los elementos necesarios para brindar comodidad, agilidad y seguridad en manejo de la mercancía que almacena.</p>
-                <li>3,835 m3 de capacidad de carga</li>
-                <li>1,835 posiciones en racks</li>
-                <li>562 m2 de área de reconocimientos previos</li>
-                <li>Área para mercancías peligrosas</li>
-                <li>7 básculas electrónicas con capacidades diversas hasta 20 toneladas</li>
-                <li>Techumbre impermeabilizada y sellada con material aislante – térmico el cual permite contar con una temperatura adecuada dentro del almacén.</li>
+                <div class="seccservice_titlee"> COMPLIANCE</div>
+                <p class="txtEquipoment">El área de Compliance fue diseñada para ayudar y orientar al personal, y en general a la empresa, a mantenerse dentro de los parámetros legales y normativos durante la realización de sus actividades diarias. Compliance tiene las siguientes funciones:</p>
+                <li>Asesorar sobre decisiones legales y normativas.</li>
+                <li>Vigilar el cumplimiento ético y normativo.</li>
+                <li>Concienciar, capacitar y difundir los cambios, ajustes y actualizaciones normativas.</li>
+                <li>Investigar faltas de comportamiento o conductas no satisfactorias.</li>
+                <li>Mediar conflictos con implicaciones éticas.</li>
             </div>
             <div class="containerimg ab">
-                <img src="img/workstations.jpg" alt="" class="imgEquipoment">
+                <img src="img/aa.jpg" alt="" class="imgEquipoment">
             </div>
         </div> 
 
         <div class="infoEquipoment">
             <div class="containerimg">
-                <img src="img/montacargas.jpg" alt="" class="imgEquipoment">
+                <img src="img/bravery.jpg" alt="" class="imgEquipoment">
             </div>
             <div class="List">
-                <div class="seccservice_title"> EQUIPO MONTACARGAS</div>
-                <p class="txtEquipoment">Equipo de última generación</p>
-                <li>01 patín eléctrico de capacidad de 1100Kg</li>
-                <li>02 tractores de Arrastre de 5000KG</li>
-                <li>04 montacargas Eléctricos de capacidad 1800Kg</li>
-                <li>06 montacargas de gas de capacidad 1800Kg</li>
-                <li>06 montacargas de gas de capacidad 2100Kg</li>
-                <li>01 montacargas de gas de Capacidad de 3000Kg</li>
-                <li>01 montacargas de Gas de Capacidad de 5000Kg</li>
-                <li>01 montacargas de Diesel de Capacidad de 5000Kg</li>
-                <li>02 montacargas de Diesel de 7000Kg</li>
-                <li>01 camioneta de capacidad de 3500Kg</li>
-                <li>01 camioneta Pick up de 1500Kg.</li>
+                <div class="seccservice_titlee">ÉTICAA</div>
+                <p class="txtEquipoment">Transportación México Express comunica clara y oportunamente los valores sobre los cuales deben regirse todas las acciones.</p>
+                <p class="txtEquipoment">El Código de Ética y Conducta en una guía práctica que permite actuar adecuadamente ante diversos escenarios.</p>
+                <a href="pdf/Codigo-de-etica-para-proveedores.pdf" download="Codigo-de-etica-para-proveedores" class="pdfdescarga">CÓDIGO DE ÉTICA Y CONDUCTA DE TME</a> <br><br>
+                <a href="pdf/Codigo-de-Etica-TME.pdf" download="Codigo-de-Etica-TME" class="pdfdescarga">CÓDIGO DE ÉTICA PARA PROVEEDORES</a>
             </div>
         </div> 
+
         <div class="infoEquipoment">
             <div class="List">
-                <div class="seccservice_title"> CÁMARAS DE REFRIGERACIÓN Y CONGELACIÓN</div>
-                <p class="txtEquipoment">Todas nuestras Cámaras de Refrigeración y Congelación se encuentran calificadas (DQ, IQ, OQ Y PQ) lo que garantiza que sus condiciones de almacenamiento permiten mantener la calidad de los productos farmacéuticos y perecederos. Contamos con 3 Cámaras de Refrigeración que pueden operar en los rangos de temperatura de 2°C a 8°C (Refrigeración) y 15°C a 25°C (Temperatura Especial Controlada), y cuya capacidad es:</p>
-                <li>Cámara de Refrigeración R-1: 84 m3 de almacenamiento</li>
-                <li>Cámara de Refrigeración R-2: 328.30 m3 de almacenamiento</li>
-                <li>Cámara de Refrigeración R-3: 1,125.60 m3 de almacenamiento</li>
-                <p class="txtEquipoment">También contamos con:</p>
-                <li>1 Cámara de Congelación C-3 con capacidad de almacenamiento de 22.984 m3</li>
-                <li>2 Congeladores C-1 y C2 con capacidad de almacenamiento de 1.20 m3 c/u</li>
-                <p class="txtEquipoment">Funcionando con un rango de operación de -20°C a -10°C.</p>
+                <div class="seccservice_titlee"> NORMATIVIDAD</div>
+                <p class="txtEquipoment">Actuar conforme a normatividad significa cumplir al píe de la letra lo que la ley y políticas estipulan. En Transportación México Express existe el lema que reza lo siguiente.</p>
+                <p class="txtEquipoment as">"Si actúas ético, actúas legal"</p>
+                
             </div>
-            
-
-            <div class="containerimg ab">
-                <img src="img/camaras.jpg" alt="" class="imgEquipoment">
+            <div class="List">
+                <div class="seccservice_titlee"> SISTEMA ANTISOBORNO</div>
+                <p class="txtEquipoment">La política del Sistema de Gestión Integrado establece la prohibición de cualquier acto relacionado con el soborno.</p>
+                <p class="txtEquipoment as">El Soborno y la corrupción son delitos que consisten en directa o indirectamente ofrecer, aceptar, pagar o prometer cualquier cosa de valor para obtener una ventaja de negocio.</p>
+                <p class="txtEquipoment as">Cualquier cosa de valor se refiere a objetos tangibles e intangibles monetarios o no monetarios.</p>
+                <a href="pdf/Politica-Sistema-de-Gestion-Integrado-R3.pdf" download="Politica-Sistema-de-Gestion-Integrado-R3" class="pdfdescarga">Política Antisoborno</a>
+                <a href="pdf/politica-de-obsequios-Regalos-y-cortesias.pdf" download="politica-de-obsequios-Regalos-y-cortesias" class="pdfdescarga">Política de obsequios, regalos y cortesías</a>
             </div>
         </div> 
     </section>
+
+    <div class="descripcion dess">
+        <!-- <h1 class="texttitleService">EXCELENCIA EN EL SERVICIO</h1> -->
+        <p class="textService">LÍNEA DIRECTA</p>
+        <p class="textService">La LÍNEA DIRECTA es un mecanismo de comunicación confidencial que permite a todos nuestros empleados, clientes, socios reportar cualquier sospecha de presuntas violaciones a la ética, a la legislación o a las políticas de la empresa. Ademas, La LÍNEA DIRECTA, permite enviar sugerencias, propuestas de mejora y/o inquietudes.</p>
+    </div>
+
+
     <?php
         include "footer.php";
     ?>
