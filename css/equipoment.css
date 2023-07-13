@@ -64,6 +64,76 @@
     border: 2px solid orangered;
 }
 
+/* services */
+.contenedorservice{
+    /* border: 2px solid red; */
+    margin: 40px auto;
+    width: 70%;
+}
+.contenedorServicetitle{
+    border-bottom: 5px solid orangered;
+    /* margin: 0 auto; */
+    width: 80%;
+}
+.titleServices{
+    color: #183650;
+    /* margin: 0 auto; */
+    font-size: 2em;
+
+    font-weight: bold;
+}
+.texservvice{
+    color: #183650;
+    font-size: 1.3em;
+}
+.contenedor_iconosServices{
+    /* border: 3px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.iconesServices{
+    /* border: 3px solid yellow; */
+    width: 25%;
+    padding: 30px;
+   
+    box-sizing: border-box;
+}
+.iconesServices:nth-child(6){
+    width: 100%;
+}
+
+.iconesServices i{
+    color: orangered;
+    font-size: 4em;
+    text-align: center;
+    /* border: 3px solid violet; */
+    margin: auto 40%;
+}
+
+.infoicono{
+    /* border: 2px solid gray; */
+    text-align: center;
+    font-size: 1.2em;
+    color: #183650;
+}
+.servicesLine{
+    width: 100%;
+    border-bottom: 5px solid orangered;
+}
+
+.serviceslogo{
+    width:800px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:1194px){
     .seccservice_title{
         font-size: 1.4em;

@@ -84,71 +84,47 @@
         </div>
     </nav> -->
     <section class="zona2" style="background-image: url('img/render.jpg')">
-        <div class="banner__content">ÉTICA</div>
+        <div class="banner__content">SERVICIOS</div>
     </section>
         <!-- <section class="banner">
         <img src="img/render.jpg" alt="" class="banner__img">
         <div class="banner__content bannerTextnosotros">Lo mejor de nosotros a tu servicio </div>
     </section> -->
-    <div class="descripcion">
-        <!-- <h1 class="texttitleService">EXCELENCIA EN EL SERVICIO</h1> -->
-        <p class="textService">Insumos Comerciales Especializados es una empresa con el más alto sentido de responsabilidad ética. Capacita y crea conciencia en todos su personal en espera de fortalecer una cultura basada en en la responsabilidad y el cumplimiento de legislación aplicable y la normatividad interna.</p>
+    
+    <div class="contenedorservice">
+        <div class="contenedorServicetitle">
+            <p class="titleServices">ALMACÉN FISCALIZADO (DENTRO DEL RECINTO FISCAL DEL AIFA)</p>
+        </div>
+        <p class="texservvice">INCOME provee los siguientes servicios de manejo, custodia y almacenaje de carga de comercio exterior en el Almacén Fiscalizado #8 en la Aduana del AIFA:</p>
+        <div class="contenedor_iconosServices">
+            <span class="iconesServices"><i class="fa-regular fa-warehouse"></i><p class="infoicono">Servicio de almacenaje y custodia de carga</p></span>
+            <span class="iconesServices"><i class="fa-solid fa-temperature-low"></i><p class="infoicono">Servicios de almacenaje cadena de frío</p></span>
+            <span class="iconesServices"><i class="fa-solid fa-truck-ramp-box"></i><p class="infoicono">Servicios de manejo de carga aérea</p></span>
+            <span class="iconesServices"><i class="fa-duotone fa-arrow-right-arrow-left"></i><p class="infoicono">Transferencia de carga de importación</p></span>
+            <span class="iconesServices"><i class="fa-solid fa-headset"></i><p class="infoicono">Servicio de asistencia en tierra para Aerolíneas y GHA</p></span>
+        </div>
+        <p class="servicesLine"></p>
+        <img src="img/serviceslogo.png" alt="" class="serviceslogo">
+
+        <div class="seccservice_titlee"> ALMACÉN FISCALIZADO (AIFA)</div>
+        <p class="txtServicesI">Derivado de la alianza estratégica entre INCOME + Logística TME , en la terminal de carga del AIFA ofrecerá servicios de manejo , almacenaje y custodia de carga de comercio exterior aprovechando la amplia experiencia y liderazgo de TME para brindar servicios de asistencia en tierra y manejo de carga aérea de clase mundial en el Aeropuerto Internacional Felipe Ángeles a las aerolíneas, Freight Forwarders y Agentes Aduanales.</p>
+        
+        <div class="seccservice_titlee"> ALMACÉN TIPO CROSSDOCK EN AICM / DENTRO DEL POLÍGONO DEL AICM (ON AIRPORT)</div>
+        <p class="txtServicesI">Mediante Logística TME se administra un almacén al interior del polígono de aeropuerto a escasos metros de la entrada a la aduana en la zona de carga del AICM.
+            
+            <br> En estas instalaciones se gestión diversos servicios y soluciones llave en mano relacionados con el manejo de carga a empresas de mensajería internacional, líneas aéreas, agentes de carga y transportistas.</p>
+            
+            <div class="seccservice_titlee"> ALMACÉN TIPO DE CROSSDOCK / FUERA DEL POLÍGONO DEL AICM (OFF AIRPORT)</div>
+            <p class="txtServicesI">A través de Logística TME ofrece servicios de almacenaje y manejo de carga de importación / exportación en su almacén (off-airport) tipo "Crossdock" localizado en Av.510 #172-C en Col. San Juan de Aragón, a escasos 3.7 Km de la aduana del AICM.
+
+Recepción, carga y descarga de unidades.
+Manejo y almacenaje de carga general.
+Manejo de paquetería, mercancías peligrosas, farmacéutica y carga sobredimensionado.
+Acondicionamiento de carga (flejado, emplayado, "paletizado", etc).
+Otros servicios en base a los requerimientos de los clientes.</p>
+            
     </div>
-
-    <section class="contenedorEquipoment">
-        <div class="infoEquipoment">
-            <div class="List">
-                <div class="seccservice_titlee"> COMPLIANCE</div>
-                <p class="txtEquipoment">El área de Compliance fue diseñada para ayudar y orientar al personal, y en general a la empresa, a mantenerse dentro de los parámetros legales y normativos durante la realización de sus actividades diarias. Compliance tiene las siguientes funciones:</p>
-                <li>Asesorar sobre decisiones legales y normativas.</li>
-                <li>Vigilar el cumplimiento ético y normativo.</li>
-                <li>Concienciar, capacitar y difundir los cambios, ajustes y actualizaciones normativas.</li>
-                <li>Investigar faltas de comportamiento o conductas no satisfactorias.</li>
-                <li>Mediar conflictos con implicaciones éticas.</li>
-            </div>
-            <div class="containerimg ab">
-                <img src="img/aa.jpg" alt="" class="imgEquipoment">
-            </div>
-        </div> 
-
-        <div class="infoEquipoment">
-            <div class="containerimg">
-                <img src="img/bravery.jpg" alt="" class="imgEquipoment">
-            </div>
-            <div class="List">
-                <div class="seccservice_titlee">ÉTICA</div>
-                <p class="txtEquipoment">Transportación México Express comunica clara y oportunamente los valores sobre los cuales deben regirse todas las acciones.</p>
-                <p class="txtEquipoment">El Código de Ética y Conducta en una guía práctica que permite actuar adecuadamente ante diversos escenarios.</p>
-                <a href="pdf/Codigo-de-etica-para-proveedores.pdf" download="Codigo-de-etica-para-proveedores" class="pdfdescarga">CÓDIGO DE ÉTICA Y CONDUCTA DE TME</a> <br><br>
-                <a href="pdf/Codigo-de-Etica-TME.pdf" download="Codigo-de-Etica-TME" class="pdfdescarga">CÓDIGO DE ÉTICA PARA PROVEEDORES</a>
-            </div>
-        </div> 
-
-        <div class="infoEquipoment">
-            <div class="List">
-                <div class="seccservice_titlee"> NORMATIVIDAD</div>
-                <p class="txtEquipoment">Actuar conforme a normatividad significa cumplir al píe de la letra lo que la ley y políticas estipulan. En Transportación México Express existe el lema que reza lo siguiente.</p>
-                <p class="txtEquipoment as">"Si actúas ético, actúas legal"</p>
-                
-            </div>
-            <div class="List">
-                <div class="seccservice_titlee"> SISTEMA ANTISOBORNO</div>
-                <p class="txtEquipoment">La política del Sistema de Gestión Integrado establece la prohibición de cualquier acto relacionado con el soborno.</p>
-                <p class="txtEquipoment as">El Soborno y la corrupción son delitos que consisten en directa o indirectamente ofrecer, aceptar, pagar o prometer cualquier cosa de valor para obtener una ventaja de negocio.</p>
-                <p class="txtEquipoment as">Cualquier cosa de valor se refiere a objetos tangibles e intangibles monetarios o no monetarios.</p>
-                <a href="pdf/Politica-Sistema-de-Gestion-Integrado-R3.pdf" download="Politica-Sistema-de-Gestion-Integrado-R3" class="pdfdescarga">Política Antisoborno</a>
-                <a href="pdf/politica-de-obsequios-Regalos-y-cortesias.pdf" download="politica-de-obsequios-Regalos-y-cortesias" class="pdfdescarga">Política de obsequios, regalos y cortesías</a>
-            </div>
-        </div> 
-    </section>
-
-    <div class="descripcion dess">
-        <!-- <h1 class="texttitleService">EXCELENCIA EN EL SERVICIO</h1> -->
-        <p class="textService">LÍNEA DIRECTA</p>
-        <p class="textService">La LÍNEA DIRECTA es un mecanismo de comunicación confidencial que permite a todos nuestros empleados, clientes, socios reportar cualquier sospecha de presuntas violaciones a la ética, a la legislación o a las políticas de la empresa. Ademas, La LÍNEA DIRECTA, permite enviar sugerencias, propuestas de mejora y/o inquietudes.</p>
-    </div>
-
-
+    
     <?php
         include "footer.php";
     ?>
