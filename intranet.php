@@ -17,8 +17,6 @@
     <title>INCOME | SERVICIOS</title>
 </head>
 <body>
-     
-
     <div class="modal" id="modal">
         <div class="modal__contec">
             <img src="" alt="" class="modal__img" id="modal__img">
@@ -72,7 +70,7 @@
             </div>
         </div>
     </header>
-    
+
     <!-- <nav class="main-nav">
         <div class="container container--flex">
             <span class="fa-solid fa-bars" id="btnmenu"></span>
@@ -86,7 +84,7 @@
         </div>
     </nav> -->
     <section class="zona2" style="background-image: url('img/render.jpg')">
-        <div class="banner__content">SERVICIOS</div>
+        <div class="banner__content">INTRANET</div>
     </section>
         <!-- <section class="banner">
         <img src="img/render.jpg" alt="" class="banner__img">
@@ -94,42 +92,17 @@
     </section> -->
     
     <div class="contenedorservice">
-        <div class="contenedorServicetitle">
-            <p class="titleServices">ALMACÉN FISCALIZADO (DENTRO DEL RECINTO FISCAL DEL AIFA)</p>
-        </div>
-        <p class="texservvice">INCOME provee los siguientes servicios de manejo, custodia y almacenaje de carga de comercio exterior en el Almacén Fiscalizado #8 en la Aduana del AIFA:</p>
+        <div class="seccservice_titleee"> SERVICIOS INTRANET</div>
+        <div class="hola"></div>
         <div class="contenedor_iconosServices">
-            <span class="iconesServices"><i class="fa-regular fa-warehouse"></i><p class="infoicono">Servicio de almacenaje y custodia de carga</p></span>
-            <span class="iconesServices"><i class="fa-solid fa-temperature-low"></i><p class="infoicono">Servicios de almacenaje cadena de frío</p></span>
-            <span class="iconesServices"><i class="fa-solid fa-truck-ramp-box"></i><p class="infoicono">Servicios de manejo de carga aérea</p></span>
-            <span class="iconesServices"><i class="fa-duotone fa-arrow-right-arrow-left"></i><p class="infoicono">Transferencia de carga de importación</p></span>
-            <span class="iconesServices"><i class="fa-solid fa-headset"></i><p class="infoicono">Servicio de asistencia en tierra para Aerolíneas y GHA</p></span>
+            <span class="iconesServiceEs"><a href="#"><i class="fa-solid fa-laptop"></i><p class="infoicono">Consulta Remota SAT</p></a></span>
+            <span class="iconesServiceEs"><a href="#"><i class="fa-solid fa-user-gear"></i><p class="infoicono">Consulta Remota Clientes</p></a></span>
+            <span class="iconesServiceEs"><a href="#"><i class="fa-solid fa-file-invoice"></i><p class="infoicono">Facturación electrónica (Crédito)</p></a></span>
+            <span class="iconesServiceEs"><a href="#"><i class="fa-solid fa-file-invoice-dollar"></i></i><p class="infoicono">Facturación electrónica (Contado)</p></a></span>
+            <span class="iconesServiceEs"><a href="#"><i class="fa-solid fa-calculator"></i><p class="infoicono">Calculadora de Servicios</p></a></span>
+            <span class="iconesServiceEs"><a href="#"><i class="fa-solid fa-dolly"></i><p class="infoicono">Portal de Proveedores</p></a></span>
         </div>
-        <p class="servicesLine"></p>
-        <img src="img/serviceslogo.png" alt="" class="serviceslogo">
-        <br><br><br><br>
-        <div class="seccservice_titleee"> ALMACÉN FISCALIZADO (AIFA)</div>
-        <div class="hola"></div>
-        <p class="txtServicesI">Derivado de la alianza estratégica entre INCOME + Logística TME , en la terminal de carga del AIFA ofrecerá servicios de manejo , almacenaje y custodia de carga de comercio exterior aprovechando la amplia experiencia y liderazgo de TME para brindar servicios de asistencia en tierra y manejo de carga aérea de clase mundial en el Aeropuerto Internacional Felipe Ángeles a las aerolíneas, Freight Forwarders y Agentes Aduanales.</p>
         
-        <div class="seccservice_titleee"> ALMACÉN TIPO CROSSDOCK EN AICM / DENTRO DEL POLÍGONO DEL AICM (ON AIRPORT)</div>
-        <div class="hola"></div>
-        <p class="txtServicesI">Mediante Logística TME se administra un almacén al interior del polígono de aeropuerto a escasos metros de la entrada a la aduana en la zona de carga del AICM.
-            
-            <br> En estas instalaciones se gestión diversos servicios y soluciones llave en mano relacionados con el manejo de carga a empresas de mensajería internacional, líneas aéreas, agentes de carga y transportistas.</p>
-            
-            <div class="seccservice_titleee"> ALMACÉN TIPO DE CROSSDOCK / FUERA DEL POLÍGONO DEL AICM (OFF AIRPORT)</div>
-            <div class="hola"></div>
-            <p class="txtServicesI">A través de Logística TME ofrece servicios de almacenaje y manejo de carga de importación / exportación en su almacén (off-airport) tipo "Crossdock" localizado en Av.510 #172-C en Col. San Juan de Aragón, a escasos 3.7 Km de la aduana del AICM.
-
-<li>Recepción, carga y descarga de unidades.</li>
-<li>Manejo y almacenaje de carga general.</li>
-<li>Manejo de paquetería, mercancías peligrosas, farmacéutica y carga sobredimensionado.</li>
-<li>Acondicionamiento de carga (flejado, emplayado, "paletizado", etc).</li>
-<li>Otros servicios en base a los requerimientos de los clientes.</li>
-
-
-</p>
             
     </div>
     
