@@ -241,4 +241,21 @@
         width: 100%;
     
     }
+    
+}
+
+@media screen and (max-width: 800px) and (min-width: 200px) {  
+    .iconesServices{
+        /* border: 3px solid yellow; */
+        width: 50%;
+        padding: 30px;
+       
+        box-sizing: border-box;
+    }
+    .iconesServices:nth-child(6){
+        width: 100%;
+    }
+    .infoicono{
+        font-size: 1.1;
+    }
 }

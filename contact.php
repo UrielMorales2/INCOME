@@ -29,11 +29,24 @@
         <img src="img/logo1.png" class="logo_nosotros" alt="">
         <nav class="menu-nav">
             <ul class="menu-contenedor_list">
-                <li class="menu_list"><a href="index.html" class="menu_link_nosotros">Inicio</a></li>
-                <li class="menu_list"><a href="index.html#section1" class="menu_link_nosotros">Quienes Somos</a></li>
-                <li class="menu_list"><a href="servicios.html" class="menu_link_nosotros">Servicios</a></li>
-                <li class="menu_list"><a href="contacto.html" class="menu_link_nosotros">contacto</a></li>
-                <!-- <li class="menu_list"><a href="" class="menu_link"></a></li> -->
+            <li class="menu_list"><a href="index.php" class="menu_link">Inicio</a></li>
+                        <li class="menu_list"><a href="#" class="menu_link">Nosotros</a>
+                            <ul class="submenu activo">
+                                <a href="about.php" class="submenu_link"><li class="submenu_list">Acerca De Income</li></a>
+                                <a href="equipment.php" class="submenu_link"><li class="submenu_list">Equipós e Instalaciones</li></a>
+                                <a href="security.php" class="submenu_link"><li class="submenu_list">Seguridad</li></a>
+                                <a href="ethics.php" class="submenu_link"><li class="submenu_list">Etica</li></a>
+                            </ul>
+                        </li>
+                        <li class="menu_list"><a href="#" class="menu_link">Servicios</a>
+                            <ul class="submenu activo">
+                                    <a href="services.php" class="submenu_link"><li class="submenu_list">Nuestros Servicios</li></a>
+                                    <a href="intranet.php" class="submenu_link"><li class="submenu_list">Intranet</li></a>
+                                    
+                                </ul>
+                            </li>
+                        <!-- <li class="menu_list aviso"><a href="servicios.html" class="menu_link">Aviso de Privacidad</a></li> -->
+                        <li class="menu_list"><a href="contact.php" class="menu_link">contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -53,11 +66,9 @@
     <section class="zona3" style="background-image: url('img/nosotros.jpg')">
         <div class="banner__content">CONTÁCTANOS</div>
     </section>
-    <!-- <section class="banner">
-        <img src="img/nosotros.jpg" alt="" class="banner__img">
-        <div class="banner__content bannerTextnosotros">Contáctenos </div>
-    </section> -->
-    
+<?php
+    include "header.php";
+?>
 
 
     <main class="mainContacto">

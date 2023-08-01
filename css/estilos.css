@@ -1028,6 +1028,46 @@ font-size: 1.3em
 
 
 
+@media screen and (max-width: 1018px) and (min-width: 200px) {  
+  .SeccService {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .seccion_text{
+    font-size: 1.1em;
+  }
+  .secservice_container_card {
+  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    justify-items: center; 
+    align-items: center;
+  
+    padding: 0;
+    
+  }
+  .secservice_container_card{
+    width: 100%;
+    max-width: 1000px; 
+  }
+
+  .secservice_card{
+    display: block;
+    margin-bottom: 10px; 
+  }
+}
+
+
+
+
+
+
+
+
+
 }
 @media screen and (min-width:480px){
   .menuVar .vt-menu {
@@ -1252,6 +1292,7 @@ display: none;
 @media screen and (max-width:1023px){
   .infoHeader{
     border: 2px solid darkgoldenrod;
+    display: none;
   }
   .main-nav{
     /* border: 2px solid slateblue; */
@@ -1288,7 +1329,14 @@ display: none;
   
 }
 
-
+@media screen and (max-width:1020px){
+  .infoTelMail{
+   display: none;
+    }
+    .infoIcon{
+      display: none;
+    }
+}
 
 @media screen and (max-width:1523px){
   .infoTelMail{

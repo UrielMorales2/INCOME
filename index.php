@@ -43,11 +43,11 @@
                 <img src="img/logo1.png" class="logo" alt="">
                 <nav class="menu-nav">
                     <ul class="menu-contenedor_list">
-                        <li class="menu_list"><a href="index.html" class="menu_link">Inicio</a></li>
+                        <li class="menu_list"><a href="index.php" class="menu_link">Inicio</a></li>
                         <li class="menu_list"><a href="#" class="menu_link">Nosotros</a>
                             <ul class="submenu activo">
-                                <a href="abaut.php" class="submenu_link"><li class="submenu_list">Acerca De Income</li></a>
-                                <a href="equipoment.php" class="submenu_link"><li class="submenu_list">Equipós e Instalaciones</li></a>
+                                <a href="about.php" class="submenu_link"><li class="submenu_list">Acerca De Income</li></a>
+                                <a href="equipment.php" class="submenu_link"><li class="submenu_list">Equipós e Instalaciones</li></a>
                                 <a href="security.php" class="submenu_link"><li class="submenu_list">Seguridad</li></a>
                                 <a href="ethics.php" class="submenu_link"><li class="submenu_list">Etica</li></a>
                             </ul>
@@ -60,86 +60,15 @@
                                 </ul>
                             </li>
                         <!-- <li class="menu_list aviso"><a href="servicios.html" class="menu_link">Aviso de Privacidad</a></li> -->
-                        <li class="menu_list"><a href="contacto.html" class="menu_link">contacto</a></li>
+                        <li class="menu_list"><a href="contact.php" class="menu_link">contacto</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
-    <nav class="main-nav">
-
-
-
-                <div class="infoHeader ">
-                    <div class="infoTelMail">
-                        <a href="facebook.com" class="iconInfo"><h1 class="infophone"><i class="fa-solid fa-phone"></i> 9513094613</h1></a>
-                        <a href="" class="iconInfo"><h1 class="infoMail"><i class="fa-regular fa-envelope"></i> admin@rf8income.com.mx</h1></a>
-                    </div>
-                    
-                    <div class="infoIcon">
-                        
-                        <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY" class="iconInfo"><i class="fa-brands fa-facebook-f iconos_header"></i></a>
-                        <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY" class="iconInfo"><i class="fa-brands fa-instagram iconos_header"></i></a>
-                        <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY" class="iconInfo"><i class="fa-brands fa-twitter iconos_header"></i></a>
-                        <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY" class="iconInfo"><i class="fa-brands fa-linkedin iconos_header"></i></a>
-            
-                    </div>
-                </div>
-          <!---------INICIA MENÚ PEQUEÑO----------- -->
-        <div class="menuVarPEqueño">
-            <a href="#" class="vt-menu"><span class="fa-solid fa-bars"></span>MENÚ</a>
-            
-        </div>
-        <div class="headerMenuchico">
-            <nav class="navMenuchico">
-                <ul>
-                    <li class="sub_menu_ "><a href="index.html" class="menu_link menu_link--select">NOSOTROS  </a>  </li>
-                    
-                <li class="sub_menu_"><a href="#">VERMICULITA       </a>
-                            <ul class="Children-- usos">
-                            
-                            <li><a href="vermi.html">¿Que es? </a></li>
-                            <li><a href="propiedades.html" >Propiedades</a></li>
-                            </ul>
-                    </li>
-                    
-                    <li class="sub_menu_"><a href="#" >USOS       </a>
-                            <ul class="Children-- usos">
-                            <li><a href="agri.html">Agricultura</a></li>
-                            <li><a href="cualidades.html" >Cualidades De La Vermiculita En La Agricultura</a></li>
-                            <li><a href="induAuto.html">Industria Automotriz</a></li>
-                            <li><a href="fundicion.html">Fundición</a></li>
-                            <li><a href="construccion.html">Construcción</a></li>
-                            <li><a href="proteccion.html">Protección Contra el Fuego</a></li>
-                            <li><a href="mercancia.html">Empaque de Mercancías y Sustancias Químicas </a></li>
-                            <li><a href="alimentacion.html">Alimentación Animal</a></li>
-                            </ul>
-                    </li>
-                    
-                    <li class="sub_menu_"><a href="ficha.html">FICHA TÉCNICA </a></li>
-                    
-                    <li><a href="contacto.html">CONTACTO </a></li>
-                    <li><a href="enlaces.html">ENLACES </a></li>
-                
-                </ul>
-            </nav>
-        </div>
-        
-        
-        </div>
-        <!-- <div class="container container--flex">
-            <span class="fa-solid fa-bars" id="btnmenu"></span>
-            <ul class="menu" id="menu">
-                
-                <li class="menu__item"><a href="index.html" class="menu__link menu__link--select">INICIO</a></li>
-                <li class="menu__item"><a href="#section1" class="menu__link">NOSOTROS</a></li>
-                <li class="menu__item submenu"><a href="servicios.html"    class="menu__link ">SERVICIOS</a> </li>
-                <li class="menu__item"><a href="contacto.html" class="menu__link">CONTACTO</a></li>
-            </ul>
-        </div> -->
-    </nav>
-    
-
+    <?php
+        include "header.php";
+    ?>
     
         <!-- <section class="zona1" style="background-image: url('img/rf8.jpg')"> -->
     <section class="zona1" style="background-image: url('img/9.png')">
@@ -169,7 +98,7 @@
     </div>
 
 
-    <section class="SeccService">
+    <div class="SeccService">
         <div class="seccservice_title"> NUESTROS SERVICIOS</div>
             <div class="secservice_container_card">
                 <div class="secservice_card">
@@ -190,7 +119,7 @@
                 </div>
             </div>
 
-    </section>
+</div>
 
 
 
@@ -212,8 +141,8 @@
                     <p><h3> CARGA AEREA</h3> 
                         <p> Contamos con las rutas mas importantes del mundo </p>
                         <ul>
-                            <li> china </li>
-                            <li> japón </li>
+                            <li> China </li>
+                            <li> Japón </li>
                             <li> E.U </li>
                             <li> Portugal </li>
                             <li> Francia </li>
@@ -231,8 +160,8 @@
                     <p><h3> CARGA TERRESTRE</h3>  
                      Contamos con las rutas mas importantes del mundo 
                     <ul>
-                        <li> china </li>
-                        <li> japón </li>
+                        <li> China </li>
+                        <li> Japón </li>
                         <li> E.U </li>
                         <li> Portugal </li>
                         <li> Francia </li>
@@ -247,8 +176,8 @@
                     <p><h3> CARGA TERRESTRE</h3>  
                      Contamos con las rutas mas importantes del mundo 
                     <ul>
-                        <li> china </li>
-                        <li> japón </li>
+                        <li> China </li>
+                        <li> Japón </li>
                         <li> E.U </li>
                         <li> Portugal </li>
                         <li> Francia </li>
@@ -258,8 +187,8 @@
                     <p><h3> CARGA TERRESTRE</h3>  
                      Contamos con las rutas mas importantes del mundo 
                     <ul>
-                        <li> china </li>
-                        <li> japón </li>
+                        <li> China </li>
+                        <li> Japón </li>
                         <li> E.U </li>
                         <li> Portugal </li>
                         <li> Francia </li>
