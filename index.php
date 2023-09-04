@@ -25,16 +25,16 @@
 
             <div class="infoHeader ">
                 <div class="infoTelMail">
-                    <a href="facebook.com" class="iconInfo"><h1 class="infophone"><i class="fa-solid fa-phone"></i> 9513094613</h1></a>
-                    <a href="" class="iconInfo"><h1 class="infoMail"><i class="fa-regular fa-envelope"></i> admin@rf8income.com.mx</h1></a>
+                    <a href="facebook.com" class="iconInfo"><h1 class="infophone"><i class="fa-solid fa-phone"></i> 951 458 13 49</h1></a>
+                    <a href="" class="iconInfo"><h1 class="infoMail"><i class="fa-regular fa-envelope"></i> direccion@rf8income.com.mx</h1></a>
                 </div>
                 
                 <div class="infoIcon">
                     
-                    <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY" class="iconInfo"><i class="fa-brands fa-facebook-f iconos_header"></i></a>
-                    <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY" class="iconInfo"><i class="fa-brands fa-instagram iconos_header"></i></a>
-                    <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY" class="iconInfo"><i class="fa-brands fa-twitter iconos_header"></i></a>
-                    <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY" class="iconInfo"><i class="fa-brands fa-linkedin iconos_header"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61550252834135"  target="_blank"  class="iconInfo"><i class="fa-brands fa-facebook-f iconos_header"></i></a>
+                    <!-- <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY" target="_blank"  class="iconInfo"><i class="fa-brands fa-instagram iconos_header"></i></a>
+                    <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY"  target="_blank" class="iconInfo"><i class="fa-brands fa-twitter iconos_header"></i></a>
+                    <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY" target="_blank"  class="iconInfo"><i class="fa-brands fa-linkedin iconos_header"></i></a> -->
         
                 </div>
             </div>
@@ -71,7 +71,7 @@
     ?>
     
         <!-- <section class="zona1" style="background-image: url('img/rf8.jpg')"> -->
-    <section class="zona1" style="background-image: url('img/9.png')">
+    <section class="zona1" style="background-image: url('img/income.jfif')">
         <!-- <section class="zona1" style="background-image: url('img/5.jpg')"> -->
         <!-- <section class="zona1" style="background-image: url('img/cargaiata.jpg')"> -->
         
@@ -131,7 +131,7 @@
 
 
   
-
+<!-- 
 
     <div class="wrap">    
         <div class="tarjeta-wrap elemento3">
@@ -197,7 +197,7 @@
             </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <div class="wrapper">
@@ -205,64 +205,32 @@
         <!-- <i id="left" class="fa-solid fa-angle-left"></i> -->
         <ul class="carousel">
           <li class="card">
-            <div class="img"><img src="img/carrusel/img-1.jpg" alt="img" draggable="false"></div>
+            <div class="img"><img src="img/carrusel/Grupo_Escalante_logo.png" alt="img" draggable="false"></div>
           </li>
           <li class="card">
-            <div class="img"><img src="img/carrusel/img-2.jpg" alt="img" draggable="false"></div>
+            <div class="img"><img src="img/carrusel/LOGO-PRIDA.png" alt="img" draggable="false"></div>
           </li>
           <li class="card">
-            <div class="img"><img src="img/carrusel/img-3.jpg" alt="img" draggable="false"></div>
+            <div class="img"><img src="img/carrusel/logo (1).png" alt="img" draggable="false"></div>
           </li>
           <li class="card">
-            <div class="img"><img src="img/carrusel/img-4.jpg" alt="img" draggable="false"></div>
+            <div class="img"><img src="img/carrusel/Logo_de_Estafeta.png" alt="img" draggable="false"></div>
           
           </li>
           <li class="card">
-            <div class="img"><img src="img/carrusel/img-5.jpg" alt="img" draggable="false"></div>
+            <div class="img"><img src="img/carrusel/logoMontalvo.png" alt="img" draggable="false"></div>
           </li>
-          <li class="card">
+          <!-- <li class="card">
             <div class="img"><img src="img/carrusel/img-6.jpg" alt="img" draggable="false"></div>
-          </li>
+          </li> -->
          
         </ul>
         <!-- <i id="right" class="fa-solid fa-angle-right"></i> -->
       </div>
 
-
-
-
-
-    
-    <!-- Button Whatsapp Structure -->
-    <div class="whatsapp_chat_support wcs_fixed_right" id="button-w">
-        <div class="wcs_button_label">
-            Contáctanos
-        </div>  
-        <div class="wcs_button wcs_button_circle">
-            <span class="fa fa-whatsapp"></span>
-        </div>  
-    
-        <div class="wcs_popup">
-            <div class="wcs_popup_close">
-                <span class="fa fa-close"></span>
-            </div>
-            <div class="wcs_popup_header">
-                <span class="fa fa-whatsapp"></span>
-                <strong>RF8 IMCOME <br>  Servicio al clinete</strong>
-                <div class="wcs_popup_header_description">¿Necesidad de ayuda? Chatea con nosotros en Whatsapp</div>
-            </div>
-
-            <div class="wcs_popup_input" 
-                data-number="9513094613"
-                data-availability='{ "monday":"07:00-22:30", "tuesday":"07:00-22:30", "wednesday":"07:7030-22:30", "thursday":"07:00-22:30", "friday":"07:00-22:30", "saturday":"09:00-18:30", "sunday":"09:00-22:30" }'>
-                <input type="text" placeholder="Escribir pregunta!" />
-                <i class="fa fa-play"></i>
-            </div>
-            <div class="wcs_popup_avatar">
-                <img src="img/logo.jpg" alt="">
-            </div>
-        </div>
-    </div>
+    <?php
+        include "WA.php";
+    ?>
 
 
     <footer class="main-footer ">
@@ -271,8 +239,8 @@
             <div class="column column--33">
                <h2 class="column__title">Contactanos</h2>
                <p class="column__txt" ><i class="fa-solid fa-location-dot"></i> Aeropuerto Internacional Felipe Ángeles (AIFA) – Tecámac Estado de México </p> 
-               <p class="column__txt"><i class="fa-solid fa-phone"></i> Telefono: (+52) 951 109 8256 </p> 
-               <p class="column__txt"><i class="fa-sharp fa-solid fa-envelope"></i> E-mail: rf8income@gmail.com</p> 
+               <p class="column__txt"><i class="fa-solid fa-phone"></i> Telefono: (+52) 951 458 1349</p> 
+               <p class="column__txt"><i class="fa-sharp fa-solid fa-envelope"></i> E-mail:  direccion@rf8income.com.mx</p> 
             </div>
             <div class="column column--33 ocul">
                 
@@ -281,8 +249,8 @@
                 <h2 class="column__title">Siguenos en nuestras redes Sociales</h2>
                 
                 <div class="social-icon">
-                    <a href="https://www.facebook.com/sinteredst" target="_blank" class="social-icon__link facebook"><span class="fa fa-facebook"></span></a>
-                    <a href="https://www.instagram.com/sinteredstone_/" target="_blank" class="social-icon__link"><img src="img/ig.png" class="ig" alt=""></a>
+                    <a href="https://www.facebook.com/profile.php?id=61550252834135" target="_blank" class="social-icon__link facebook"><span class="fa fa-facebook"></span></a>
+                    <!-- <a href="https://www.instagram.com/sinteredstone_/" target="_blank" class="social-icon__link"><img src="img/ig.png" class="ig" alt=""></a> -->
                     <!-- <a href="" class="social-icon__link"><span class="icon-mail"></span></a> -->
                 </div>
             </div>

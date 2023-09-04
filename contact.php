@@ -6,16 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="plugin/whatsapp-chat-support.css">
     <script src="https://kit.fontawesome.com/cedfbf939d.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/PNG" href="img/logo1.png">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/servicios.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/contacto.css">
-
-    <script src="js/jquery-3.6.3.js"></script>
-    <script src="js/script.js"></script>
-
+    <!-- <link rel="stylesheet" href="css/galeria.css"> -->
     <script src="https://kit.fontawesome.com/cedfbf939d.js" crossorigin="anonymous"></script>
-    <title>INCOME | SERVICIOS</title>
+    <title>INCOME | CONTACTO</title>
 </head>
 <body>
     <div class="modal" id="modal">
@@ -25,11 +23,30 @@
         <div class="modal__boton" id="modal__boton">X</div>
     </div>
     
-    <header class="menu-header_nosotros">
-        <img src="img/logo1.png" class="logo_nosotros" alt="">
-        <nav class="menu-nav">
-            <ul class="menu-contenedor_list">
-            <li class="menu_list"><a href="index.php" class="menu_link">Inicio</a></li>
+    <header class="menu-header">
+        <div class="headerConten">
+
+            <div class="infoHeader ">
+            <div class="infoTelMail">
+                    <a href="facebook.com" class="iconInfo"><h1 class="infophone"><i class="fa-solid fa-phone"></i> 951 458 13 49</h1></a>
+                    <a href="" class="iconInfo"><h1 class="infoMail"><i class="fa-regular fa-envelope"></i> direccion@rf8income.com.mx</h1></a>
+                </div>
+                
+                <div class="infoIcon">
+                    
+                    <a href="https://www.facebook.com/profile.php?id=61550252834135"  target="_blank"  class="iconInfo"><i class="fa-brands fa-facebook-f iconos_header"></i></a>
+                    <!-- <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY" target="_blank"  class="iconInfo"><i class="fa-brands fa-instagram iconos_header"></i></a>
+                    <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY"  target="_blank" class="iconInfo"><i class="fa-brands fa-twitter iconos_header"></i></a>
+                    <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY" target="_blank"  class="iconInfo"><i class="fa-brands fa-linkedin iconos_header"></i></a> -->
+        
+                </div>
+            </div>
+            
+            <div class="Contenedor_menu_grande">
+                <img src="img/logo1.png" class="logo" alt="">
+                <nav class="menu-nav">
+                    <ul class="menu-contenedor_list">
+                    <li class="menu_list"><a href="index.php" class="menu_link">Inicio</a></li>
                         <li class="menu_list"><a href="#" class="menu_link">Nosotros</a>
                             <ul class="submenu activo">
                                 <a href="about.php" class="submenu_link"><li class="submenu_list">Acerca De Income</li></a>
@@ -47,11 +64,13 @@
                             </li>
                         <!-- <li class="menu_list aviso"><a href="servicios.html" class="menu_link">Aviso de Privacidad</a></li> -->
                         <li class="menu_list"><a href="contact.php" class="menu_link">contacto</a></li>
-            </ul>
-        </nav>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 
-    <nav class="main-nav">
+    <!-- <nav class="main-nav">
         <div class="container container--flex">
             <span class="fa-solid fa-bars" id="btnmenu"></span>
             <ul class="menu" id="menu">
@@ -62,13 +81,16 @@
                 <li class="menu__item"><a href="contacto.html" class="menu__link menu__link--select">CONTACTO</a></li>
             </ul>
         </div>
-    </nav>
+    </nav> -->
     <section class="zona3" style="background-image: url('img/nosotros.jpg')">
         <div class="banner__content">CONTÁCTANOS</div>
     </section>
-<?php
-    include "header.php";
-?>
+    <?php
+        include "header.php";
+    ?>
+    <?php
+        include "WA.php";
+    ?>
 
 
     <main class="mainContacto">
@@ -171,30 +193,9 @@
     </section> -->
 
 
-    <footer class="main-footer ">
-        <div class="container container--flex">
-            
-            <div class="column column--33">
-               <h2 class="column__title">Contactanos</h2>
-               <p class="column__txt" ><i class="fa-solid fa-location-dot"></i> Aeropuerto Internacional Felipe Ángeles (AIFA) – Tecámac Estado de México </p> 
-               <p class="column__txt"><i class="fa-solid fa-phone"></i> Telefono: (+52) 951 109 8256 </p> 
-               <p class="column__txt"><i class="fa-sharp fa-solid fa-envelope"></i> E-mail: rf8income@gmail.com</p> 
-            </div>
-            <div class="column column--33 ocul">
-                
-            </div>
-            <div class="column column--33">
-                <h2 class="column__title">Siguenos en nuestras redes Sociales</h2>
-                
-                <div class="social-icon">
-                    <a href="https://www.facebook.com/sinteredst" target="_blank" class="social-icon__link facebook"><span class="fa fa-facebook"></span></a>
-                    <a href="https://www.instagram.com/sinteredstone_/" target="_blank" class="social-icon__link"><img src="img/ig.png" class="ig" alt=""></a>
-                    <!-- <a href="" class="social-icon__link"><span class="icon-mail"></span></a> -->
-                </div>
-            </div>
-            <p class="copy">©2023 INCOME – Insumos Comerciales Especializados SA de CV</p>
-        </div>
-    </footer>
+    <?php
+    include "footer.php";
+    ?>
 
 
 

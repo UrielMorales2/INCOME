@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/contacto.css">
     <!-- <link rel="stylesheet" href="css/galeria.css"> -->
     <script src="https://kit.fontawesome.com/cedfbf939d.js" crossorigin="anonymous"></script>
-    <title>INCOME | SERVICIOS</title>
+    <title>INCOME | Acerca De Income</title>
 </head>
 <body>
     <div class="modal" id="modal">
@@ -27,17 +27,17 @@
         <div class="headerConten">
 
             <div class="infoHeader ">
-                <div class="infoTelMail">
-                    <a href="facebook.com" class="iconInfo"><h1 class="infophone"><i class="fa-solid fa-phone"></i> 9513094613</h1></a>
-                    <a href="" class="iconInfo"><h1 class="infoMail"><i class="fa-regular fa-envelope"></i> admin@rf8income.com.mx</h1></a>
+            <div class="infoTelMail">
+                    <a href="facebook.com" class="iconInfo"><h1 class="infophone"><i class="fa-solid fa-phone"></i> 951 458 13 49</h1></a>
+                    <a href="" class="iconInfo"><h1 class="infoMail"><i class="fa-regular fa-envelope"></i> direccion@rf8income.com.mx</h1></a>
                 </div>
                 
                 <div class="infoIcon">
                     
-                    <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY" class="iconInfo"><i class="fa-brands fa-facebook-f iconos_header"></i></a>
-                    <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY" class="iconInfo"><i class="fa-brands fa-instagram iconos_header"></i></a>
-                    <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY" class="iconInfo"><i class="fa-brands fa-twitter iconos_header"></i></a>
-                    <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY" class="iconInfo"><i class="fa-brands fa-linkedin iconos_header"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61550252834135"  target="_blank"  class="iconInfo"><i class="fa-brands fa-facebook-f iconos_header"></i></a>
+                    <!-- <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY" target="_blank"  class="iconInfo"><i class="fa-brands fa-instagram iconos_header"></i></a>
+                    <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY"  target="_blank" class="iconInfo"><i class="fa-brands fa-twitter iconos_header"></i></a>
+                    <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY" target="_blank"  class="iconInfo"><i class="fa-brands fa-linkedin iconos_header"></i></a> -->
         
                 </div>
             </div>
@@ -70,18 +70,7 @@
         </div>
     </header>
 
-    <nav class="main-nav">
-        <div class="container container--flex">
-            <span class="fa-solid fa-bars" id="btnmenu"></span>
-            <ul class="menu" id="menu">
-                
-                <li class="menu__item"><a href="index.html" class="menu__link ">INICIO</a></li>
-                <li class="menu__item"><a href="index.html#section1" class="menu__link">NOSOTROS</a></li>
-                 <li class="menu__item submenu"><a href="servicios.html"    class="menu__link menu__link--select">SERVICIOS</a> </li>
-                <li class="menu__item"><a href="contacto.html" class="menu__link">CONTACTO</a></li>
-            </ul>
-        </div>
-    </nav>
+  
     <section class="zona2" style="background-image: url('img/render.jpg')">
           <div class="banner__content">Lo mejor de nosotros a tu servicio</div>
     </section>
@@ -96,7 +85,7 @@
 
 
 
-    <div class="contenedor_imagenes">
+    <!-- <div class="contenedor_imagenes">
         <div class="contenedor1">
             <figure>
                 <img class="img_cap" src="img/Despacho-serv.jpg" alt="">
@@ -130,7 +119,7 @@
             </figure>
         </div>
        
-    </div>
+    </div> -->
 
 
 
@@ -190,25 +179,25 @@
         <div class="seccservice_title"> CERTIFICADOS</div>
         <!-- <i id="left" class="fa-solid fa-angle-left"></i> -->
         <ul class="carousel">
-          <li class="card">
+          <!-- <li class="card">
             <div class="img"><img src="img/carruselSertificados/ISO-9001.jpg" alt="img" draggable="false"></div>
           </li>
           <li class="card">
             <div class="img"><img src="img/carruselSertificados/ISO_45001.jpg" alt="img" draggable="false"></div>
-          </li>
+          </li> -->
           <li class="card">
             <div class="img"><img src="img/carruselSertificados/OEA.jpg" alt="img" draggable="false"></div>
           </li>
           <li class="card">
             <div class="img"><img src="img/carruselSertificados/OPERADOR-DE-CARGA-SEGURA.jpg" alt="img" draggable="false"></div>
-          
+<!--           
           </li>
           <li class="card">
             <div class="img"><img src="img/carruselSertificados/ISO-9001.jpg" alt="img" draggable="false"></div>
           </li>
           <li class="card">
             <div class="img"><img src="img/carruselSertificados/ISO_45001.jpg" alt="img" draggable="false"></div>
-          </li>
+          </li> -->
          
         </ul>
         <!-- <i id="right" class="fa-solid fa-angle-right"></i> -->
@@ -259,54 +248,14 @@
 
 
 
-<!-- 
-     <main class="main">
-         <div class="group gallery">
-             <h2 class="group__title"></h2>             <div class="containerServicios container--flex_servicios contenedorServicios" >
-               
-                    <a href="" class="galerry__img  galerry__img--small"><img src="img/Despacho-serv.jpg" alt="" ></a>
-                    <img src="img/CargaInter-serv.jpg" alt="" class="galerry__img galerry__img--small">
-                    <img src="img/Capacitacion-serv.jpg" alt="" class="galerry__img  galerry__img--small">
-                    <img src="img/CapacIATA-serv.jpg" alt="" class="galerry__img  galerry__img--small" >
-             </div>
-         </div>  
-     </main> -->
-
-
 
 
 
 
          <!-- Button Whatsapp Structure -->
-         <div class="whatsapp_chat_support wcs_fixed_right" id="button-w">
-            <div class="wcs_button_label">
-                Contáctanos
-            </div>  
-            <div class="wcs_button wcs_button_circle">
-                <span class="fa fa-whatsapp"></span>
-            </div>  
-        
-            <div class="wcs_popup">
-                <div class="wcs_popup_close">
-                    <span class="fa fa-close"></span>
-                </div>
-                <div class="wcs_popup_header">
-                    <span class="fa fa-whatsapp"></span>
-                    <strong>RF8 IMCOME <br>  Servicio al clinete</strong>
-                    <div class="wcs_popup_header_description">¿Necesidad de ayuda? Chatea con nosotros en Whatsapp</div>
-                </div>
-    
-                <div class="wcs_popup_input" 
-                    data-number="9513094613"
-                    data-availability='{ "monday":"07:00-22:30", "tuesday":"07:00-22:30", "wednesday":"07:7030-22:30", "thursday":"07:00-22:30", "friday":"07:00-22:30", "saturday":"09:00-18:30", "sunday":"09:00-22:30" }'>
-                    <input type="text" placeholder="Escribir pregunta!" />
-                    <i class="fa fa-play"></i>
-                </div>
-                <div class="wcs_popup_avatar">
-                    <img src="img/logo.jpg" alt="">
-                </div>
-            </div>
-        </div>
+        <?php
+            include "WA.php";
+        ?>
 
 
         <?php

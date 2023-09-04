@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/equipoment.css">
     <!-- <link rel="stylesheet" href="css/galeria.css"> -->
     <script src="https://kit.fontawesome.com/cedfbf939d.js" crossorigin="anonymous"></script>
-    <title>INCOME | SERVICIOS</title>
+    <title>INCOME | ÉTICA</title>
 </head>
 <body>
     <div class="modal" id="modal">
@@ -28,17 +28,17 @@
         <div class="headerConten">
 
             <div class="infoHeader ">
-                <div class="infoTelMail">
-                    <a href="facebook.com" class="iconInfo"><h1 class="infophone"><i class="fa-solid fa-phone"></i> 9513094613</h1></a>
-                    <a href="" class="iconInfo"><h1 class="infoMail"><i class="fa-regular fa-envelope"></i> admin@rf8income.com.mx</h1></a>
+            <div class="infoTelMail">
+                    <a href="facebook.com" class="iconInfo"><h1 class="infophone"><i class="fa-solid fa-phone"></i> 951 458 13 49</h1></a>
+                    <a href="" class="iconInfo"><h1 class="infoMail"><i class="fa-regular fa-envelope"></i> direccion@rf8income.com.mx</h1></a>
                 </div>
                 
                 <div class="infoIcon">
                     
-                    <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY" class="iconInfo"><i class="fa-brands fa-facebook-f iconos_header"></i></a>
-                    <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY" class="iconInfo"><i class="fa-brands fa-instagram iconos_header"></i></a>
-                    <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY" class="iconInfo"><i class="fa-brands fa-twitter iconos_header"></i></a>
-                    <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY" class="iconInfo"><i class="fa-brands fa-linkedin iconos_header"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61550252834135"  target="_blank"  class="iconInfo"><i class="fa-brands fa-facebook-f iconos_header"></i></a>
+                    <!-- <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY" target="_blank"  class="iconInfo"><i class="fa-brands fa-instagram iconos_header"></i></a>
+                    <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY"  target="_blank" class="iconInfo"><i class="fa-brands fa-twitter iconos_header"></i></a>
+                    <a href="https://www.youtube.com/watch?v=9CiK8yEaKqY" target="_blank"  class="iconInfo"><i class="fa-brands fa-linkedin iconos_header"></i></a> -->
         
                 </div>
             </div>
